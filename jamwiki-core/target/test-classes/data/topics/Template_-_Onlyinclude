@@ -1,0 +1,8 @@
+<!-- test onlyinclude -->
+this content should not be shown when the template is used.
+
+<onlyinclude>this content '''should''' be shown when the template is used.</onlyinclude>
+
+this content should also not be shown when the template is used.
+
+<includeonly>this content should be ignored since onlyinclude supersedes it.</includeonly>

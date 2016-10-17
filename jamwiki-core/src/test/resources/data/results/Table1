@@ -1,0 +1,17 @@
+<table border="3">
+<tr>
+<th>Column heading 1</th>
+<th>Column heading 2</th>
+<th>Column heading 3</th>
+</tr>
+<tr>
+<th>Row heading 1</th>
+<td>Cell 2</td>
+<td>Cell 100</td>
+</tr>
+<tr>
+<th>Row heading A</th>
+<td>Cell B</td>
+<td>Cell C</td>
+</tr>
+</table>

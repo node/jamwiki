@@ -1,0 +1,10 @@
+<!-- verify that preformatted text is formatted correctly with wiki syntax -->
+wiki text line one
+ pre line one
+wiki text line two
+ pre line two
+ pre line three
+wiki text line three
+ pre line four
+ pre line five
+ pre line six

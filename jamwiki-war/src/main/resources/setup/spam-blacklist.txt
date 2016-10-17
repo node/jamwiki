@@ -1,0 +1,49 @@
+\<a[ ]+h[a]?ref\=
+\<_b_\>
+\[url\=
+(adipex|albuterol|allegra|alprazolam|ativan|carisoprodol|celexa|cialis|claritin|clomid|clonazepam|diazepam|didrex|flexeril|hoodia|hydrocodone|levitra|lipitor|lisinopril|lorazepam|meridia|nexium|norco|paxil|phentermine|propecia|prozac|rivotril|sildenafil|soma|tenuate|tramadol|ultracet|ultram|valium|viagra|vicodin|wellbutrin|xanax|xenical|zanaflex|zoloft|zyban)[ \._\-](drug|generic|online)
+(adult|asian|black|ebony|latina|lesbian|mature|porno|teen)[ \._\-](anal|ass|bdsm|blowjob|cock|cunt|fuck|lesbian|orgy|porn|pussy|sex|tit|video|xxx)
+(best|free|super)[ \._\-]porn
+(buy|cheap|generic|online)[ \._\-](adipex|albuterol|allegra|alprazolam|ativan|carisoprodol|celexa|cialis|claritin|clomid|clonazepam|diazepam|didrex|flexeril|hoodia|hydrocodone|levitra|lipitor|lisinopril|lorazepam|meridia|nexium|norco|paxil|phentermine|propecia|prozac|rivotril|sildenafil|soma|tenuate|tramadol|ultracet|ultram|valium|viagra|vicodin|wellbutrin|xanax|xenical|zanaflex|zoloft|zyban)
+(bookmark you|good post|nice site|nice work) (man|dude)?[ ]*(10x|thx)
+(news|tickets)_[0-9]+\.(htm|txt)
+([\[]?http[s]?\://[^ \n\t\.]+\.[^ \n\t]+[\]]?[ \n\t]+){5,}
+[0-9]{5,}\.com
+[\.\/]km\.ru
+adware[ -_\.]freeware
+airline\-tickets\-cheap
+backlinkboomber\.com
+bestpills4weightloss
+cheap[\-\.]+tickets
+college\-paper
+comment[0-9],
+depositfiles\.com
+display\:none
+extremeseotips\.com
+fhYj30Mxb55m1SpveOxt
+free\-site\-host
+freehost(ing)?\.(com|net)
+games4office
+gigazu\.com
+hice\ site
+hostaim\.com
+hostvo\.com
+jerremsproperties\.com
+justfree\.com
+louis[\-_\.]?vuitton
+naked[ -_\.]teen
+narod\.ru
+nemokamosknygos\.com
+nofeehost\.com
+(nursing|spam_|virus)([0-9]){2,}
+payday[ -_\.]loans
+porn[ -_\.]video
+rapidshare\.com
+replica[-_]?watches
+russian(brides|girls)
+sedra\.net
+site2gb\.com
+trustedessays\.net
+virtual\-bubblewrap\.com
+webhost\.com
+xxxmovie

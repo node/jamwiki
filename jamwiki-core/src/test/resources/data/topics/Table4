@@ -1,0 +1,7 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| 
+| style="background:red; color:white" | abc
+| def
+| bgcolor="red" | <font color="white"> ghi </font>
+| jkl
+|}

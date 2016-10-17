@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="configuration">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="parsers" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="jflex-parser-custom-tags" maxOccurs="1" minOccurs="0" />
+				<xs:element ref="query-handlers" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="editors" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="search-engines" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="translations" maxOccurs="1" minOccurs="0" />
+				<xs:element ref="date-formats" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="time-formats" maxOccurs="1" minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="parsers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="parser" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="class" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="key" type="xs:string" maxOccurs="1" minOccurs="0" />
+							<xs:element name="state" type="xs:string" maxOccurs="1" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="jflex-parser-custom-tags">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="custom-tag" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="init-param" maxOccurs="unbounded" minOccurs="0" />
+							<xs:element name="class" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="key" type="xs:string" maxOccurs="1" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="query-handlers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="query-handler" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="class" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="key" type="xs:string" maxOccurs="1" minOccurs="0" />
+							<xs:element name="state" type="xs:string" maxOccurs="1" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="editors">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="editor" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="key" type="xs:string" maxOccurs="1" minOccurs="1" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="search-engines">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="search-engine" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="class" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="key" type="xs:string" maxOccurs="1" minOccurs="0" />
+							<xs:element name="key2" type="xs:string" maxOccurs="1" minOccurs="0" />
+							<xs:element name="state" type="xs:string" maxOccurs="1" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="translations">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="translation" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="key" type="xs:string" maxOccurs="1" minOccurs="1" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="init-param">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="param-name" type="xs:string" maxOccurs="1" minOccurs="1" />
+				<xs:element name="param-value" type="xs:string" maxOccurs="1" minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="date-formats">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="date-format" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="time-formats">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="time-format" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,50 @@
+<ul>
+<li>1
+<ul>
+<li>1.1</li>
+<li>1.2
+<ul>
+<li>1.2.1</li>
+<li>1.2.2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2</li>
+</ul>
+<p>break</p>
+<ul>
+<li>Lists are easy to do:
+<ul>
+<li>start every line</li>
+</ul>
+</li>
+<li>with a star
+<ul>
+<li>more stars mean
+<ul>
+<li>deeper levels</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>break</p>
+<ul>
+<li>A newline</li>
+<li>in a list</li>
+</ul>
+<p>marks the end of the list. Of course</p>
+<ul>
+<li>you can</li>
+<li>start again.</li>
+</ul>
+<p>break</p>
+<ul>
+<li>You can also
+<ul>
+<li>break lines</li>
+<li>like this</li>
+</ul>
+</li>
+</ul>

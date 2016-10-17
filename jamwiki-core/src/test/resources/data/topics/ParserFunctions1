@@ -1,0 +1,45 @@
+<!-- test usage and rendering of parser functions -->
+
+{{anchorencode: a_b 40% x y}}
+
+{{filepath: Dummy.gif}}
+
+{{fullurl: Test Topic}}
+
+{{localurl: Test Topic}}
+
+{{urlencode: a_b 40% x y}}
+
+{{lc:aBcDe Fg}}
+
+{{lcfirst:ABcDe Fg}}
+
+{{uc:aBcDe Fg}}
+
+{{ucfirst:aBcDe Fg}}
+
+{{ucfirst:aBcDe fg}}
+
+{{padleft:xyz|5}}
+
+{{padleft:xyz|5|_}}
+
+{{padleft:xyz|5|abc}}
+
+{{padleft:xyz|2}}
+
+{{padleft:|1|xyz}}
+
+{{padright:xyz|5}}
+
+{{padright:xyz|5|_}}
+
+{{padright:xyz|5|abc}}
+
+{{padright:xyz|2}}
+
+{{padright:|1|xyz}}
+
+{{padleft:xyz|z|abc}}
+
+{{padleft:|2|x}}

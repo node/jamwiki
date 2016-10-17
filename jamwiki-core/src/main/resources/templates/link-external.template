@@ -1,0 +1,7 @@
+<!--
+HTML for external links that open in the same browser window.  The arguments are:
+  0 = The CSS class for the link.
+  1 = Link URL.
+  2 = Link text.  Must be properly HTML-escaped.
+-->
+<a class="{0}" rel="nofollow" href="{1}">{2}</a>

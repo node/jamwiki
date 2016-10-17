@@ -1,0 +1,9 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| style="width:75%; height:200px" border="1"
+|- 
+| abc || def || ghi
+|- style="height:100px" 
+| jkl || style="width:200px" |mno || pqr
+|-
+| stu || vwx || yz
+|}

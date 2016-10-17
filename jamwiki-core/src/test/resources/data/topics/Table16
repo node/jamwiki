@@ -1,0 +1,20 @@
+<!-- test invalid table attributes -->
+{| <b>test</b>
+|-   valign="bottom"
+| test
+|}
+
+{| <test>
+|-   valign="bottom"
+| test
+|}
+
+{| <b<>
+|-   valign="bottom"
+| test
+|}
+
+{| <b | align="center"
+|-   valign="bottom"
+| test
+|}

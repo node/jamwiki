@@ -1,0 +1,6 @@
+<!-- wiki pre allows HTML & syntax, HTML pre does not -->
+ test  <span style="color:blue">''pagename''</span>
+
+<pre>
+ test  <span style="color:blue">''pagename''</span>
+</pre>

@@ -1,0 +1,6 @@
+<!-- test paragraph parsing with non-inline tags -->
+<div>Text</div>
+
+<div>Text</div>
+
+<div>Text</div>

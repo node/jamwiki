@@ -1,0 +1,21 @@
+<!-- test whitespace in tables -->
+{| style="background:#DDD;vertical-align:top"  cellspacing="1" cellpadding="1"
+ |- class="hintergrundfarbe3"
+  !style="text-align:center"|Staat  
+  !style="text-align:center"|Hauptstadt  
+  !style="text-align:center"|Fläche (km²)
+  !style="text-align:center"|Bevölkerung
+  !style="text-align:center"|Landessprache
+ |- style="background:#F8F8FF"
+  |test
+  |[[Example1]]
+  |1001449
+  |72.000.000
+  |[[Example1|Text]]
+ |- style="background:#F8F8FF"
+  |test
+  |[[Example1]]
+  |1001449
+  |72.000.000
+  |[[Example1|Text]]
+ |}

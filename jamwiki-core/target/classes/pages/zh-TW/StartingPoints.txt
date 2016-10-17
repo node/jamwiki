@@ -1,0 +1,23 @@
+<div style="text-align:center;font-weight:bold;color:green;font-size:150%">JAMWiki 安裝完成!</div>
+
+按一下任何頁面上方的 [編輯] 索引標籤，就可以編輯那一頁的內容。
+透過 [[Special:Admin]] 頁面可以調整組態設定。
+此外，更新下列主題可以變更您 Wiki 的整體外觀與風格:
+
+* [[JAMWiki:Sidebar]] - 出現在每個頁面左邊的導覽選單。
+* [[JAMWiki:Footer]] - 每個頁面的頁尾。
+* [[JAMWiki:Header]]
+* [[JAMWiki:Custom.css]] - 包含整個網站 CSS 樣式資訊的樣式表。
+
+最後，希望您能為 JAMWiki 盡點棉薄之力，將安裝的成功與否回報到 [http://jamwiki.org/ jamwiki.org]。
+也請將任何的意見、問題以及錯誤報告留到 [http://jamwiki.org/ jamiki.org] 上，讓 JAMWiki 能持續進步。
+此外，[http://jamwiki.org/ jamwiki.org] 上還有最新的 JAMWiki 文件，指導您進一步自訂 Wiki 內容。
+
+其他有用功能:
+
+* [[Special:RecentChanges]] - 最近修改過的 Wiki 主題清單。
+* [[Special:Upload]] - 用來上傳檔案及圖片到 Wiki 上。
+* [[Special:Search]] - 搜尋 Wiki 內容。
+* [[Special:Account]] - 建立帳戶，正確記錄主題的編輯參與名單。
+* [[Special:AllPages]] - Wiki 上所有主題的清單。
+* [[Special:SpecialPages]] - Wiki 「特殊」頁面索引。

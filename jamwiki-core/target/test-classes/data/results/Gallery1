@@ -1,0 +1,129 @@
+<table class="gallery" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<div style="width:155px;" class="gallerybox">
+<div class="thumb" style="padding:25px 0;">
+<div class="thumbinner" style="width:122px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-200px.jpg" width="120" height="80" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>Item 1</p>
+</div>
+</div>
+</td>
+<td>
+<div style="width:155px;" class="gallerybox">
+<div class="thumb" style="padding:25px 0;">
+<div class="thumbinner" style="width:122px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-200px.jpg" width="120" height="80" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>a link to <a href="/wiki/en/Example1" title="Example1">Example1</a></p>
+</div>
+</div>
+</td>
+<td>
+<div style="width:155px;" class="gallerybox">
+<div class="thumb" style="padding:25px 0;">
+<div class="thumbinner" style="width:122px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-200px.jpg" width="120" height="80" alt="Test Image.jpg" /></a></div>
+</div>
+</div>
+</td>
+<td>
+<div style="width:155px;" class="gallerybox">
+<div class="thumb" style="padding:25px 0;">
+<div class="thumbinner" style="width:122px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-200px.jpg" width="120" height="80" alt="Test Image.jpg" /></a></div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width:155px;" class="gallerybox">
+<div class="thumb" style="padding:25px 0;">
+<div class="thumbinner" style="width:122px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-200px.jpg" width="120" height="80" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p><i>italic caption</i></p>
+</div>
+</div>
+</td>
+<td>
+<div style="width:155px;" class="gallerybox">
+<div class="thumb" style="padding:25px 0;">
+<div class="thumbinner" style="width:122px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-200px.jpg" width="120" height="80" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>on page &quot;Gallery1&quot;</p>
+</div>
+</div>
+</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</table>
+<table class="gallery" cellspacing="0" cellpadding="0">
+<caption>This is the gallery caption</caption>
+<tr>
+<td>
+<div style="width:125px;" class="gallerybox">
+<div class="thumb" style="padding:15px 0;">
+<div class="thumbinner" style="width:92px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-100px.jpg" width="90" height="60" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>caption 1</p>
+</div>
+</div>
+</td>
+<td>
+<div style="width:125px;" class="gallerybox">
+<div class="thumb" style="padding:15px 0;">
+<div class="thumbinner" style="width:92px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-100px.jpg" width="90" height="60" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>caption 2</p>
+</div>
+</div>
+</td>
+<td>
+<div style="width:125px;" class="gallerybox">
+<div class="thumb" style="padding:15px 0;">
+<div class="thumbinner" style="width:92px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-100px.jpg" width="90" height="60" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>caption 3</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width:125px;" class="gallerybox">
+<div class="thumb" style="padding:15px 0;">
+<div class="thumbinner" style="width:92px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-100px.jpg" width="90" height="60" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>caption 4</p>
+</div>
+</div>
+</td>
+<td>
+<div style="width:125px;" class="gallerybox">
+<div class="thumb" style="padding:15px 0;">
+<div class="thumbinner" style="width:92px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-100px.jpg" width="90" height="60" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>caption 5</p>
+</div>
+</div>
+</td>
+<td>
+<div style="width:125px;" class="gallerybox">
+<div class="thumb" style="padding:15px 0;">
+<div class="thumbinner" style="width:92px; margin:0 auto;"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-100px.jpg" width="90" height="60" alt="" /></a></div>
+</div>
+<div class="gallerytext">
+<p>caption 6</p>
+</div>
+</div>
+</td>
+</tr>
+</table>

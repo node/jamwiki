@@ -1,0 +1,8 @@
+<!-- verify that br tags will be sanitized and processed correctly -->
+text<br>text<br />text
+
+text</br>text<br class="dummy">
+
+text<br class="dummy" />
+
+<bogus>this is a fake tag</bogus>

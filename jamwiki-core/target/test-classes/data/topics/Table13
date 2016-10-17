@@ -1,0 +1,7 @@
+<!-- test div followed by table. -->
+<div align="center">center-aligned div content</div>
+
+{| align="center"
+|-
+| centered table content
+|}

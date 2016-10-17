@@ -1,0 +1,17 @@
+<table border="1" cellpadding="2">
+<tr>
+<th width="50">Name</th>
+<th width="225">Effect</th>
+<th width="225">Games Found In</th>
+</tr>
+<tr>
+<td>Poke Ball</td>
+<td>Regular Poke Ball</td>
+<td>All Versions</td>
+</tr>
+<tr>
+<td>Great Ball</td>
+<td>Better than a Poke Ball</td>
+<td>All Versions</td>
+</tr>
+</table>

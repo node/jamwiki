@@ -1,0 +1,10 @@
+<!-- test parsing of list attributes -->
+<ol start=9>
+<li>Amsterdam</li>
+</ol>
+<ul type="disc">
+<li style="display:none">First</li>
+</ul>
+<dl start="1" type="disc" style="margin: 0px">
+<li foo=bar">first</li>
+</dl>

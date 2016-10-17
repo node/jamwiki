@@ -1,0 +1,7 @@
+<!--
+HTML for interwiki links.  The arguments are:
+  0 = Link title attribute.  Must be properly HTML-escaped.
+  1 = Link URL.
+  2 = Link text.  Must be properly HTML-escaped.
+-->
+<a class="interwiki" title="{0}" href="{1}">{2}</a>

@@ -1,0 +1,9 @@
+<!-- test unmatched heading tags -->
+== Section 1 ==
+
+<div>text</div>
+
+
+=== Section 1.1 ===
+
+==== Section 1.1.1 ====

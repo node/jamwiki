@@ -1,0 +1,25 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| border="1"
+| &alpha;
+| align="center" | cell2
+{| border="2" style="background:#ABCDEF;" <!-- The nested table must be on a new line -->
+| NESTED
+|-
+| TABLE
+|}
+| valign="bottom" | the original table again
+| style="width:100px;" |
+{| border="2" style="background:#ABCDEF;"
+| A
+|}
+{| border="2" style="background:#ABCDEF;"
+| B || B
+|}
+| style="width:50px;" |
+{| border="2" style="background:#ABCDEF; float:left;"
+| C
+|}
+{| border="2" style="background:#ABCDEF; float:right;"
+| D
+|}
+|}

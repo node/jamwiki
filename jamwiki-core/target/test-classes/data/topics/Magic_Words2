@@ -1,0 +1,6 @@
+<!-- test usage and rendering of magic words -->
+{{SERVER}}
+
+{{SERVERNAME}}
+
+{{DISPLAYTITLE:Invalid}}

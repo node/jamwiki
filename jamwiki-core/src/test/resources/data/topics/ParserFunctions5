@@ -1,0 +1,30 @@
+<!-- parsing of {{ns:}}, {{nse:}} and {{#language:}} -->
+1. {{ns:3}}
+
+2. {{nse:3}}
+
+3. {{ns:-2}}
+
+4. {{ns:-4}}
+
+5. {{ns:File comments}}
+
+6. {{ns:File_comments}}
+
+7. {{ns:Invalid}}
+
+8. {{ns:  3  }}
+
+9. {{ns:media}}
+
+10. {{#language:fr}}
+
+11. {{#language:fr|en}}
+
+12. {{#language:99}}
+
+13. {{#language:fr|99}}
+
+14. {{ns:0}}
+
+15. {{ns:}}

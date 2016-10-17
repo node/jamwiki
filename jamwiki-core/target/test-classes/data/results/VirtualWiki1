@@ -1,0 +1,6 @@
+<p><a href="/wiki/en/Example1" title="Example1">Example1</a></p>
+<p><a href="/wiki/test/Example1" title="Example1">Example1</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=Non-existent" class="edit" title="Non-existent">Non-existent</a></p>
+<p><a href="/wiki/test/Special:Edit?topic=Non-existent" class="edit" title="Non-existent">Non-existent</a></p>
+<p><a href="/wiki/test/StartingPoints" title="StartingPoints">test:</a></p>
+<p><a href="/wiki/test/Category:Category1" title="Category:Category1">Category:Category1</a></p>

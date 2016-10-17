@@ -1,0 +1,70 @@
+<!-- test usage and rendering of the #expr: parser function -->
+1: {{#expr: 4+2 }}
+
+2: {{#expr: 4.15+2.15 }}
+
+3: {{#expr: 4.15+2 }}
+
+4: {{#expr: 4+2-1 }}
+
+5. {{#expr: 4 + (2*2) }}
+
+6. {{#expr: (2*2) + 4 }}
+
+7. {{#expr: 3 / 0 }}
+
+8. {{#expr: (3 * (6 - (12 / 2)) + 5) }}
+
+9. {{#expr: (3 * 2 }}
+
+10. {{#expr: 3 * 2) }}
+
+11. {{#expr: 3 * }}
+
+12. {{#expr: 3 * 6 - 12 / 2 + 5 }}
+
+13. {{#expr: -12 }}
+
+14. {{#expr:exp9}}
+
+15. {{#expr:ln2}}
+
+16. {{#expr:abs-2}}
+
+17. {{#expr:floor1.2}}
+
+18. {{#expr:floor-1.2}}
+
+19. {{#expr:ceil1.2}}
+
+20. {{#expr:ceil-1.2}}
+
+21. {{#expr:round-1.2}}
+
+22. {{#expr:round-1.51}}
+
+23. {{#expr:round0.555}}
+
+24. {{#expr:30mod7}}
+
+25. {{#expr:30mod-7}}
+
+26. {{#expr:33mod(20/2)}}
+
+27. {{#expr:33mod(20/2)mod2}}
+
+28. {{#expr:trunc1.8}}
+
+29. {{#expr:trunc(-1.8)}}
+
+30. {{#expr:pi}}
+
+31. {{#expr:e}}
+
+32. {{#expr:e^4}}
+
+33. {{#expr: -1 < 0}}
+
+34. {{#expr: -1 < -1 < 0}}
+
+35. {{#expr: -1 < (-1 < 0)}}

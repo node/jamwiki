@@ -1,0 +1,34 @@
+<!--
+test nested unordered lists.
+some of these examples taken from http://meta.wikimedia.org/wiki/Help:Lists,
+licensed under the GFDL
+-->
+*1
+**1.1
+**1.2
+***1.2.1
+***1.2.2
+*2
+
+break
+
+* Lists are easy to do:
+** start every line
+* with a star
+** more stars mean
+*** deeper levels
+
+break
+
+*A newline
+*in a list  
+marks the end of the list.
+Of course
+*you can
+*start again.
+
+break
+
+* You can also
+**break lines
+**like this

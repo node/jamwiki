@@ -1,0 +1,12 @@
+<p>producing the below table:</p>
+<table border="5" cellspacing="5" cellpadding="2">
+<tr>
+<td style="text-align: center;">text</td>
+</tr>
+<tr>
+<th>Computer</th>
+</tr>
+<tr>
+<td style="color: yellow; background-color: green;">Processor Speed: <span style="color: white;">1.8 GHz</span></td>
+</tr>
+</table>

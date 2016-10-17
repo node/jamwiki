@@ -1,0 +1,35 @@
+<p>1: 6</p>
+<p>2: 6.3</p>
+<p>3: 6.15</p>
+<p>4: 5</p>
+<p>5. 8</p>
+<p>6. 8</p>
+<p>7. <strong class="error">Expression error: / 0</strong></p>
+<p>8. 5</p>
+<p>9. <strong class="error">Expression error: (3 * 2</strong></p>
+<p>10. <strong class="error">Expression error: 3 * 2)</strong></p>
+<p>11. <strong class="error">Expression error: 3 *</strong></p>
+<p>12. 17</p>
+<p>13. -12</p>
+<p>14. 8103.08392758</p>
+<p>15. 0.69314718</p>
+<p>16. 2</p>
+<p>17. 1</p>
+<p>18. -2</p>
+<p>19. 2</p>
+<p>20. -1</p>
+<p>21. -1</p>
+<p>22. -2</p>
+<p>23. 1</p>
+<p>24. 2</p>
+<p>25. 2</p>
+<p>26. 3</p>
+<p>27. 1</p>
+<p>28. 1</p>
+<p>29. -1</p>
+<p>30. 3.14159265</p>
+<p>31. 2.71828183</p>
+<p>32. 54.59815003</p>
+<p>33. 1</p>
+<p>34. 0</p>
+<p>35. 1</p>

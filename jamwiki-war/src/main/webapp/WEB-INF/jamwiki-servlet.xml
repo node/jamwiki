@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<!-- map everything but the default topic mapping -->
+	<bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="order" value="1" />
+		<!-- this property is required for the "/uploads" pattern -->
+		<property name="alwaysUseFullPath" value="true" />
+		<property name="interceptors">
+			<list>
+				<bean class="org.jamwiki.servlets.JAMWikiLocaleInterceptor" />
+			</list>
+		</property>
+		<property name="mappings">
+			<props>
+				<prop key="/**/Special:Account">Register</prop>
+				<prop key="/**/Special:Admin">Admin</prop>
+				<prop key="/**/Special:AllPages">Items</prop>
+				<prop key="/**/Special:Block">Block</prop>
+				<prop key="/**/Special:BlockList">BlockList</prop>
+				<prop key="/**/Special:Categories">Category</prop>
+				<prop key="/**/Special:Contributions">Contributions</prop>
+				<prop key="/**/Special:Diff">Diff</prop>
+				<prop key="/**/Special:Edit">Edit</prop>
+				<prop key="/**/Special:Export">Export</prop>
+				<prop key="/**/Special:FileList">Items</prop>
+				<prop key="/**/Special:History">History</prop>
+				<prop key="/**/Special:Import">Import</prop>
+				<prop key="/**/Special:ImageList">Items</prop>
+				<prop key="/**/Special:LinkTo">LinkTo</prop>
+				<prop key="/**/Special:ListUsers">Items</prop>
+				<prop key="/**/Special:Login">Login</prop>
+				<prop key="/**/Special:Logout">Login</prop>
+				<prop key="/**/Special:Log">Log</prop>
+				<prop key="/**/Special:Logs">Log</prop>
+				<prop key="/**/Special:Maintenance">Admin</prop>
+				<prop key="/**/Special:Manage">Manage</prop>
+				<prop key="/**/Special:Move">Move</prop>
+				<prop key="/**/Special:OrphanedPages">Items</prop>
+				<prop key="/**/Special:PasswordReset">PasswordReset</prop>
+				<prop key="/**/Special:Print">Printable</prop>
+				<prop key="/**/Special:RecentChanges">RecentChanges</prop>
+				<prop key="/**/Special:RecentChangesFeed">RecentChangesFeed</prop>
+				<prop key="/**/Special:Roles">Roles</prop>
+				<prop key="/**/Special:Search">Search</prop>
+				<prop key="/**/Special:Setup">Setup</prop>
+				<prop key="/**/Special:Source">ViewSource</prop>
+				<prop key="/**/Special:SpecialPages">SpecialPages</prop>
+				<prop key="/**/Special:TopicsAdmin">Items</prop>
+				<prop key="/**/Special:Translation">Translation</prop>
+				<prop key="/**/Special:Unblock">Block</prop>
+				<prop key="/**/Special:Upgrade">Upgrade</prop>
+				<prop key="/**/Special:Upload">Upload</prop>
+				<prop key="/**/Special:VirtualWiki">VirtualWiki</prop>
+				<prop key="/**/Special:Watchlist">Watchlist</prop>
+				<prop key="/**/jamwiki.css">Stylesheet</prop>
+				<prop key="/uploads/**/*">Image</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- if this mapping triggers then nothing above matched, default to topic -->
+	<bean id="urlMappingDefault" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<bean class="org.jamwiki.servlets.JAMWikiLocaleInterceptor" />
+			</list>
+		</property>
+		<property name="order" value="2" />
+		<property name="mappings">
+			<props>
+				<prop key="/*">Topic</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="Admin" class="org.jamwiki.servlets.AdminServlet" />
+	<bean id="Block" class="org.jamwiki.servlets.BlockServlet" />
+	<bean id="BlockList" class="org.jamwiki.servlets.BlockListServlet" />
+	<bean id="Category" class="org.jamwiki.servlets.CategoryServlet" />
+	<bean id="Contributions" class="org.jamwiki.servlets.ContributionsServlet" />
+	<bean id="Diff" class="org.jamwiki.servlets.DiffServlet" />
+	<bean id="Edit" class="org.jamwiki.servlets.EditServlet" />
+	<bean id="Export" class="org.jamwiki.servlets.ExportServlet" />
+	<bean id="History" class="org.jamwiki.servlets.HistoryServlet" />
+	<bean id="Image" class="org.jamwiki.servlets.ImageServlet" />
+	<bean id="Import" class="org.jamwiki.servlets.ImportServlet" />
+	<bean id="Items" class="org.jamwiki.servlets.ItemsServlet" />
+	<bean id="LinkTo" class="org.jamwiki.servlets.LinkToServlet" />
+	<bean id="Login" class="org.jamwiki.servlets.LoginServlet" />
+	<bean id="Log" class="org.jamwiki.servlets.LogServlet" />
+	<bean id="Manage" class="org.jamwiki.servlets.ManageServlet" />
+	<bean id="Move" class="org.jamwiki.servlets.MoveServlet" />
+	<bean id="PasswordReset" class="org.jamwiki.servlets.PasswordResetServlet" />
+	<bean id="Printable" class="org.jamwiki.servlets.PrintableServlet" />
+	<bean id="RecentChanges" class="org.jamwiki.servlets.RecentChangesServlet" />
+	<bean id="RecentChangesFeed" class="org.jamwiki.servlets.RecentChangesFeedServlet">
+		<property name="defaultFeedType" value="rss_2.0"/>
+		<property name="defaultIncludeMinorEdits" value="false"/>
+	</bean>
+	<bean id="Register" class="org.jamwiki.servlets.RegisterServlet" />
+	<bean id="Roles" class="org.jamwiki.servlets.RolesServlet" />
+	<bean id="Search" class="org.jamwiki.servlets.SearchServlet" />
+	<bean id="Setup" class="org.jamwiki.servlets.SetupServlet" />
+	<bean id="SpecialPages" class="org.jamwiki.servlets.SpecialPagesServlet" />
+	<bean id="Stylesheet" class="org.jamwiki.servlets.StylesheetServlet" />
+	<bean id="Topic" class="org.jamwiki.servlets.TopicServlet" />
+	<bean id="Translation" class="org.jamwiki.servlets.TranslationServlet" />
+	<bean id="Upgrade" class="org.jamwiki.servlets.UpgradeServlet" />
+	<bean id="Upload" class="org.jamwiki.servlets.UploadServlet" />
+	<bean id="ViewSource" class="org.jamwiki.servlets.ViewSourceServlet" />
+	<bean id="VirtualWiki" class="org.jamwiki.servlets.AdminVirtualWikiServlet" />
+	<bean id="Watchlist" class="org.jamwiki.servlets.WatchlistServlet" />
+
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass"><value>org.springframework.web.servlet.view.JstlView</value></property>
+		<property name="prefix"><value>/WEB-INF/jsp/</value></property>
+		<property name="suffix"><value>.jsp</value></property>
+	</bean>
+
+	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"/>
+
+</beans>

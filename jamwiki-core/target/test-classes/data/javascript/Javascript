@@ -1,0 +1,10 @@
+<script type="text/javascript">alert("Hello!");</script>
+<p>&lt; script  type=&quot;text/javascript&quot;  &gt; alert(&quot;Hello!&quot;); &lt;  / script  &gt;
+
+<script type="text/javascript">alert("Hello!");</script>
+
+<script type="text/javascript">alert("Hello!");</script></p>
+<div onclick="alert('Hello!')">test</div>
+<div onclick="if (1 < 2 && 3 > 2) { alert('<b>Hello!</b>') }">test</div>
+<div onclick="if (1 < 2 && 3 > 2) { alert('<b>Hello!</b>') }" style="margin: 10px; text-align: left">test</div>
+<div class="test" onclick="if (1 < 2 && 3 > 2) { alert('<b>Hello!</b>') }" style="margin: 10px; text-align: left">test</div>

@@ -1,0 +1,29 @@
+<!-- test wiki linebreaks -->
+----
+
+----
+
+text
+----
+text
+
+text
+----
+
+----
+text
+
+
+
+----
+test ----
+----
+test
+----   
+test
+----test
+---- test
+-----
+------
+ ----
+test

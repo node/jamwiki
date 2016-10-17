@@ -1,0 +1,4 @@
+<!-- verify that invalid HTML pre tags are parsed correctly -->
+<pre>
+  pre tag without close
+    ...that has two lines

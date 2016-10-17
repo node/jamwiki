@@ -1,0 +1,14 @@
+<!-- test a variety of HTML link syntax for mailto: links -->
+mailto:email@email.com
+
+mailto://email@email.com
+
+[mailto:email@email.com]
+
+[mailto://email@email.com]
+
+[mailto:email@email.com Caption]
+
+[mailto:email@email.com Multiple word caption]
+
+[mailto:email@email.com '''Bold caption''']

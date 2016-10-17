@@ -1,0 +1,4 @@
+<!-- verify that invalid links are not parsed as HTML links -->
+httpp://www.google.com
+
+[httpp://www.google.com]

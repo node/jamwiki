@@ -1,0 +1,9 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| border="1" cellpadding="2"
+|-
+|width="100pt"|This column is 100 points wide
+|width="200pt"|This column is 200 points wide
+|width="300pt"|This column is 300 points wide
+|-
+|blah || blah || blah
+|}

@@ -1,0 +1,4 @@
+<!--
+test category inclusion from a template
+-->
+{{category|Example1}}

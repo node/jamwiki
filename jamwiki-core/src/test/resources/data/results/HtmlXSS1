@@ -1,0 +1,5 @@
+<p><u class="x">text</u></p>
+<div>x</div>
+<p>&lt;DIV &quot;&quot;&quot;&gt;&lt;SCRIPT&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;&quot;&gt;test</p>
+&lt;/div&gt;
+<p><span style="">&lt;script&gt;alert(&quot;XSS&quot;)&lt;/script&gt;">d</span></p>

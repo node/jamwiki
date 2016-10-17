@@ -1,0 +1,5 @@
+<!-- test templates as table styles -->
+{| {{prettytable}}
+|-
+!{{Hl2}}| Word
+|}

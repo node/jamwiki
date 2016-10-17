@@ -1,0 +1,28 @@
+<!-- test table attributes -->
+{| align="center" foo=bar rules="all" rowspan="3"
+|-
+| style="display:none; color: red" foo=bar nowrap | 1
+| onclick="alert('Hello')" | 2
+|}
+<table  ID="table" align = left bgcolor = 'red' fakeid="table2" summary="table description">
+<caption id="caption" align="center" onclick="alert('Hello')">caption</caption>
+<colgroup align=left" foo="bar">
+<col />
+<col span="2" class="alternate" />
+</colgroup>
+<thead valign = 'middle' rowspan="3">
+<tr bgcolor="blue" rowspan="3">
+<th rowspan=3 colspan='2'>1</th>
+</tr>
+</thead>
+<tbody valign=middle foo="bar">
+<tr>
+<td rOWSpan=3 nowrap colsPAn='2'>2</td>
+</tr>
+</tbody>
+<tfoot valign='middle'>
+<tr align="left">
+<td rowspan = "3" nowrap="nowrap" cOLSpan=2>3</td>
+</tr>
+</tfoot>
+</table>

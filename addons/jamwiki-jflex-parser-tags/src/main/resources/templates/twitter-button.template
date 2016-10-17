@@ -1,0 +1,8 @@
+<!--
+HTML wrapper for Twitter "tweet".  See
+http://twitter.com/about/resources/buttons#tweet for additional details.
+The arguments are:
+  0 = Full page URL to Tweet.
+  1 = "Count" layout type.  One of "horizontal", "vertical" or "none".
+-->
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="{0}" data-count="{1}">Tweet</a>

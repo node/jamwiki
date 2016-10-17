@@ -1,0 +1,15 @@
+<!-- test parsing of lists in HTML format -->
+<ol start="9">
+<li>Amsterdam
+<li>Rotterdam
+<li>The Hague
+<li>
+non-paragraph1
+
+non-paragraph2
+</li>
+<li>
+non-paragraph3
+
+non-paragraph4
+</ol>

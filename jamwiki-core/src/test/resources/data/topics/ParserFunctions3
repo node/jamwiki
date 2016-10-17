@@ -1,0 +1,16 @@
+<!-- test usage and rendering of parser functions with query arguments -->
+{{filepath: Test Image.jpg|nowiki}}
+
+{{filepath: Test Image.jpg|invalid param}}
+
+{{localurl:Example1|name=value}}
+
+{{localurl:Test Topic|name=value}}
+
+{{localurl:Example1|name1=value1|name2=value2}}
+
+{{fullurl:Example1|name=value}}
+
+{{fullurl:Test Topic|name=value}}
+
+{{fullurl:Test Topic|name1=value1|name2=value2}}

@@ -1,0 +1,26 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| border="1" cellpadding="5" cellspacing="0" align="center"
+|+'''An example table'''
+|-
+! style="background:#efefef;" | First header
+! colspan="2" style="background:#ffdead;" | Second header
+|-
+| upper left
+| &#160;
+| rowspan=2 style="border-bottom:3px solid grey;" valign="top" |
+right side
+|-
+| style="border-bottom:3px solid grey;" | lower left
+| style="border-bottom:3px solid grey;" | lower middle
+|-
+| colspan="3" align="center" |
+{| border="0"
+|+''A table in a table''
+|-
+| align="center" width="150px" | [[File:Test Image.jpg]]
+| align="center" width="150px" | [[File:Test Image.jpg]]
+|-
+| align="center" colspan="2" style="border-top:1px solid red; border-right:1px solid red; border-bottom:2px solid red; border-left:1px solid red;" |
+Two Wikimedia logos
+|}
+|}

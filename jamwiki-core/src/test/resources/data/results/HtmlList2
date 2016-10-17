@@ -1,0 +1,9 @@
+<ol start="9">
+<li>Amsterdam</li>
+</ol>
+<ul type="disc">
+<li style="display:none">First</li>
+</ul>
+<dl style="margin: 0px">
+<li>first</li>
+</dl>

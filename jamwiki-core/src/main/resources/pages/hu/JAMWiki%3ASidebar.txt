@@ -1,0 +1,11 @@
+* [[StartingPoints|Kezdõlap]]
+* [[Special:RecentChanges|Friss válzotások]]
+* [[Special:Search|Keresés]]
+----
+* [[Special:AllPages|Minden oldal]]
+* [[Special:SpecialPages|Speciális lapok]]
+* [[Special:Upload|Fájl feltöltése]]
+----
+* [http://jamwiki.org/ JAMWiki]
+* [http://sourceforge.net/projects/jamwiki/ Sourceforge oldal]
+* [http://mediawiki.org/ MediaWiki]

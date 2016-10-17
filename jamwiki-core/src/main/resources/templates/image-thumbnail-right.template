@@ -1,0 +1,9 @@
+<!--
+HTML wrapper for a right-aligned thumbnail image.  The arguments are:
+  0 = Container div pixel width
+  1 = Image HTML.
+-->
+<!-- the inner div must specify a width -->
+<div class="thumb tright">
+<div class="thumbinner" style="width:{0,number,#}px">{1}</div>
+</div>

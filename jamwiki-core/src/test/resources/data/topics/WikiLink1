@@ -1,0 +1,106 @@
+<!-- test parsing of wiki links -->
+[[Example1]]
+
+[[Example1|text]]
+
+[[Example1]]s
+
+[[Example1|text]]s
+
+[[Example1]]S
+
+[[Example1|text]]S
+
+[[Example1]]9
+
+[[Example1|text]]9
+
+[[Comments:Example1]]9
+
+[[#Section]]
+
+[[#Section|text]]
+
+[[Special:Upload]]
+
+[[+]]
+
+[[+ start]]
+
+[[end +]]
+
+[[at the + middle]]
+
+[[WikiLink1]]
+
+[[WikiLink1|alt text]]
+
+[[WikiLink1|''italic'' text]]
+
+[[en:WikiLink1]]
+
+[[:en:WikiLink1]]
+
+[[test:WikiLink1]]
+
+[[:test:WikiLink1]]
+
+[[:test:Non-existent topic]]
+
+[[{{PAGENAME}}]]
+
+[[Help:{{PAGENAME}}]]
+
+[[Help:  {{PAGENAME}}  ]]
+
+[[Help:Test]]
+
+[[  Help: Test]]
+
+[[  :Help : Test ]]
+
+[[Invalid:Test]]
+
+[[  Invalid: Test]]
+
+[[  :Invalid : Test ]]
+
+[[StartingPoints|Caption with a [[StartingPoints]] link]]
+
+[[StartingPoints|Caption with a [[StartingPoints|alt text]] link]]
+
+[[StartingPoints|two links]] on the [[StartingPoints|same line]]
+
+[[StartingPoints|test ]] link]]
+
+[[StartingPoints|test [[ link]]
+
+[[StartingPoints|test http://example.com link]]
+
+[[StartingPoints|test [http://example.com link]]]
+
+[[StartingPoints|test [http://example.com link] test]]
+
+[[#Section 1]]
+
+[[WikiLink1#Section 1]]
+
+[[#Section 1|alt text]]
+
+[[WikiLink1#Section 1|alt text]]
+
+[[example1]]
+
+[[eXample1]]
+
+[[Invalid<Topic]]
+
+[[Special:RecentChanges]]
+
+[[Special:RecentChanges|Recent Changes]]
+
+[[Special:Test]]
+
+[[Example1|#text]]
+
+[[Comments:Example1|#text]]

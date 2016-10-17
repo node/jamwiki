@@ -1,0 +1,75 @@
+{| width="33%" align="right" style="margin-left: 1em;border:1px solid #cccccc;padding:1em;background:#ffffff"
+|-
+|<p>'''{{{name|{{PAGENAME}} }}}'''</p>
+<p>'''Race:''' {{{race|Human}}}</p>
+<p>'''Career:''' {{{current|unknown}}} ({{{exits|unknown}}})</p>
+{| width="100%" cellpadding="3" cellspacing="1"
+|-
+| style="font-weight:bold;color:#ffffff;background-color:#000000;" colspan="8" | Main Profile
+|-  style="text-align:left;color:#333333;background-color:#cccccc;"
+!WS
+!BS
+!S
+!T
+!Ag
+!Int
+!WP
+!Fel
+|- style="text-align:left;color:#ffffff;background-color:#cccccc;"
+|{{{sws|0}}}
+|{{{sbs|0}}}
+|{{{ss|0}}}
+|{{{st|0}}}
+|{{{sag|0}}}
+|{{{sint|0}}}
+|{{{swp|0}}}
+|{{{sfel|0}}}
+|-
+|{{{ws|0}}}
+|{{{bs|0}}}
+|{{{s|0}}}
+|{{{t|0}}}
+|{{{ag|0}}}
+|{{{int|0}}}
+|{{{wp|0}}}
+|{{{fel|0}}}
+|-
+|  style="font-weight:bold;color:#ffffff;background-color:#000000;" colspan="8" | Secondary Profile
+|-  style="text-align:left;color:#333333;background-color:#cccccc;"
+!A
+!W
+!SB
+!TB
+!M
+!Mag
+!IP
+!FP
+|- style="text-align:left;color:#ffffff;background-color:#cccccc;"
+|{{{sa|0}}}
+|{{{sw|0}}}
+|{{{ssb|0}}}
+|{{{stb|0}}}
+|{{{sm|0}}}
+|{{{smag|0}}}
+|{{{sip|0}}}
+|{{{sfp|0}}}
+|-
+|{{{a|0}}}
+|{{{w|0}}}
+|{{{sb|0}}}
+|{{{tb|0}}}
+|{{{m|0}}}
+|{{{mag|0}}}
+|{{{ip|0}}}
+|{{{fp|0}}}
+|}
+|-
+|<p>'''Skills:''' {{{skillnotes|none}}}</p>
+<p>'''Talents:''' {{{talents|none}}}</p>
+<p>'''Armor:''' {{{armor|none}}}</p>
+<p>'''Weapons:''' {{{weapons|none}}}</p>
+<p>'''Trappings:''' {{{trappings|none}}}</p>
+{{{special|}}}
+|-
+|<p style="font-size:77%">Learn more about [http://www.mediawiki.org/wiki/Templates completing the StatBox] on MediaWiki.</p>
+|}

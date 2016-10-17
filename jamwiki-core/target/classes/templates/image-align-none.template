@@ -1,0 +1,5 @@
+<!--
+HTML wrapper for an image that is not aligned.  The arguments are:
+  0 = Image HTML.
+-->
+<div class="floatnone">{0}</div>

@@ -1,0 +1,7 @@
+<p><br />
+paragraph with opening break followed by table</p>
+<table align="center">
+<tr>
+<td>centered table content</td>
+</tr>
+</table>

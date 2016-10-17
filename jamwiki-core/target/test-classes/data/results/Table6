@@ -1,0 +1,17 @@
+<table style="width:75%; height:200px" border="1">
+<tr>
+<td>abc</td>
+<td>def</td>
+<td>ghi</td>
+</tr>
+<tr style="height:100px">
+<td>jkl</td>
+<td style="width:200px">mno</td>
+<td>pqr</td>
+</tr>
+<tr>
+<td>stu</td>
+<td>vwx</td>
+<td>yz</td>
+</tr>
+</table>

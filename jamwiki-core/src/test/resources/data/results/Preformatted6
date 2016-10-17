@@ -1,0 +1,15 @@
+<pre>
+content = test
+</pre>
+<pre>
+{{reprint|content=test}}
+</pre>
+<pre>
+&lt;pre&gt;{{reprint|content=test}}&lt;/pre&gt;
+</pre>
+<pre>
+[[User:0.0.0.0|0.0.0.0]] 
+</pre>
+<pre>
+~~~
+</pre>

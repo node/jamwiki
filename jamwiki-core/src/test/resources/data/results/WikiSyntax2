@@ -1,0 +1,5 @@
+<p>this is <b><i>bold italic text</i></b></p>
+<p>this is <i><b>bold</b> and italic</i> text</p>
+<p>this is <b><i>italic</i> and bold</b> text</p>
+<p>this is <b>bold</b> <i>followed by italic</i> text</p>
+<p>this is <i>italic</i> <b>followed by bold</b> text</p>

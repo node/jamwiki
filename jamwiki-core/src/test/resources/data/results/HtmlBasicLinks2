@@ -1,0 +1,17 @@
+<p><a class="externallink" rel="nofollow" href="https://www.google.com">https://www.google.com</a></p>
+<p><a class="externallink" rel="nofollow" href="https://www.google.com">[1]</a></p>
+<p><a class="externallink" rel="nofollow" href="https://www.google.com">Caption</a></p>
+<p><a class="externallink" rel="nofollow" href="https://www.google.com">Multiple word caption</a></p>
+<p><a class="externallink" rel="nofollow" href="https://www.google.com"><b>Bold caption</b></a></p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com/page_(page)">http://www.google.com/page_(page)</a></p>
+<p>(<a class="externallink" rel="nofollow" href="http://www.google.com/page">http://www.google.com/page</a>)</p>
+<p>(<a class="externallink" rel="nofollow" href="http://www.google.com/page_(page)">http://www.google.com/page_(page)</a>)</p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com/page_()">http://www.google.com/page_()</a></p>
+<p>(<a class="externallink" rel="nofollow" href="http://www.google.com/page_()">http://www.google.com/page_()</a>)</p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com/">http://www.google.com/</a><br /></p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com/">http://www.google.com/</a><b>bold</b></p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com">Caption with http://example.com nested link</a></p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com">Caption with [http://example.com nested captioned</a> link]</p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com">Caption with [[StartingPoints</a>] nested wiki link]</p>
+<p><a class="externallink" rel="nofollow" href="http://www.google.com">Caption with [[StartingPoints|nested captioned</a>] wiki link]</p>
+<p>&quot;<a class="externallink" rel="nofollow" href="http://www.google.com/">http://www.google.com/</a>&quot;</p>

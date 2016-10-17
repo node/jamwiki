@@ -1,0 +1,4 @@
+<div style="color: red; font-weight: bold" id="div1">test</div>
+<div id="div2">test</div>
+<div id="div3">test</div>
+<div align="center">test</div>

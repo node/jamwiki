@@ -1,0 +1,232 @@
+<!--
+CacheManager Configuration
+==========================
+An ehcache.xml corresponds to a single CacheManager.
+
+See instructions below or the ehcache schema (ehcache.xsd) on how to configure.
+
+System property tokens can be specified in this file which are replaced when the configuration
+is loaded. For example multicastGroupPort=${multicastGroupPort} can be replaced with the
+System property either from an environment variable or a system property specified with a
+command line switch such as -DmulticastGroupPort=4446. Another example, useful for Terracotta
+server based deployments is <terracottaConfig url="${serverAndPort}"/ and specify a command line
+switch of -Dserver36:9510
+
+The attributes of <ehcache> are:
+* name - an optional name for the CacheManager.  The name is optional and primarily used
+for documentation or to distinguish Terracotta clustered cache state.  With Terracotta
+clustered caches, a combination of CacheManager name and cache name uniquely identify a
+particular cache store in the Terracotta clustered memory.
+* updateCheck - an optional boolean flag specifying whether this CacheManager should check
+for new versions of Ehcache over the Internet.  If not specified, updateCheck="true".
+* dynamicConfig - an optional setting that can be used to disable dynamic configuration of caches
+associated with this CacheManager.  By default this is set to true - i.e. dynamic configuration
+is enabled.  Dynamically configurable caches can have their TTI, TTL and maximum disk and
+in-memory capacity changed at runtime through the cache's configuration object.
+* monitoring - an optional setting that determines whether the CacheManager should
+automatically register the SampledCacheMBean with the system MBean server.
+
+Currently, this monitoring is only useful when using Terracotta clustering and using the
+Terracotta Developer Console. With the "autodetect" value, the presence of Terracotta clustering
+will be detected and monitoring, via the Developer Console, will be enabled. Other allowed values
+are "on" and "off".  The default is "autodetect". This setting does not perform any function when
+used with JMX monitors.
+-->
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+         updateCheck="false" monitoring="autodetect"
+         dynamicConfig="true" maxBytesLocalHeap="15%">
+
+    <!--
+    JAMWiki cache configurations
+
+    Note that in most cases caches aren't persisted to disk because the cost
+    of a disk lookup is generally not worthwhile when compared to a database
+    lookup.  An exception is for particularly slow operations, such as image
+    dimension lookups.
+    -->
+
+    <!--
+    Cache of parsed versions of the left nav, stylesheet, etc.  It is
+    important that these topics always be in the cache as they are used
+    on every page.
+    -->
+    <cache name="org.jamwiki.WikiBase.CACHE_PARSED_TOPIC_CONTENT"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of interwiki values.  This cache will only contain a single element,
+    the list of all interwiki values.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_INTERWIKI_LIST"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of namespace info.  This cache will only contain a single
+    object which is the list of all namespaces.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_NAMESPACE_LIST"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of roles within groups.  Compared to other caches the number of
+    elements held in this cache should be relatively small.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_ROLE_MAP_GROUP"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of topic names by lookup ID.  Objects in this cache should
+    not be particularly large, so a large cache is probably safe.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_TOPIC_IDS_BY_NAME"
+           maxBytesLocalHeap="3%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of topic names by lookup value.  Objects in this cache should
+    not be particularly large, so a large cache is probably safe.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_TOPIC_NAMES_BY_NAME"
+           maxBytesLocalHeap="3%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of topic versions.  Used with diffs, when viewing old topics, and
+    when purging topic versions.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_TOPIC_VERSIONS"
+           maxBytesLocalHeap="2%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of topic objects by ID.  This cache can become VERY large in size,
+    so limit it based on available heap.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_TOPICS_BY_ID"
+           maxBytesLocalHeap="5%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of user block information.  Unless a massive number of users are
+    being blocked then this should be a very small cache.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_USER_BLOCKS_ACTIVE"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="1800"
+           timeToLiveSeconds="1800"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of user objects by ID.  Make the cache large enough to accomodate
+    a reasonable number of users.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_USER_BY_USER_ID"
+           maxBytesLocalHeap="2%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of user objects by login.  Make the cache large enough to accomodate
+    a reasonable number of users.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_USER_BY_USER_NAME"
+           maxBytesLocalHeap="2%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Cache of virtual wiki info.  This cache will only contain a single
+    object which is the list of all virtual wikis.
+    -->
+    <cache name="org.jamwiki.db.AnsiDataHandler.CACHE_VIRTUAL_WIKI_LIST"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+    <!--
+    Image dimension cache.  Image dimenstion lookup can be slow, so persist
+    lookups to cache.  Note that each dimension element be fairly small.
+    -->
+    <cache name="org.jamwiki.parser.image.ImageUtil.CACHE_IMAGE_DIMENSIONS"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="true"
+           maxElementsOnDisk="100000"
+           eternal="false"
+           timeToIdleSeconds="1800"
+           timeToLiveSeconds="1800"
+           diskPersistent="false"
+    />
+    <!--
+    Diff info cache.  Diffs will probably not be frequently re-used so a
+    small size should be OK.
+    -->
+    <cache name="org.jamwiki.utils.DiffUtil.CACHE_DIFF_INFORMATION"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="true"
+           maxElementsOnDisk="100000"
+           eternal="false"
+           timeToIdleSeconds="1800"
+           timeToLiveSeconds="1800"
+           diskPersistent="false"
+    />
+    <!--
+    Message formatters are used for parsing template elements, and the cache
+    should be large enough to hold all of them.
+    -->
+    <cache name="org.jamwiki.util.WikiUtil.CACHE_TEMPLATE_MESSAGE_FORMATTER"
+           maxBytesLocalHeap="1%"
+           overflowToDisk="false"
+           eternal="false"
+           timeToIdleSeconds="600"
+           timeToLiveSeconds="600"
+           diskPersistent="false"
+    />
+</ehcache>

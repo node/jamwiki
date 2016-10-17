@@ -1,0 +1,10 @@
+<!-- reference rendering -->
+: First <ref name="First">First Reference</ref>.
+: Second <ref name="First" />.
+: Third <ref name="First"/>.
+: Fourth <ref>Fourth Reference</ref>.
+
+Paragraph
+<references/>
+
+Paragraph

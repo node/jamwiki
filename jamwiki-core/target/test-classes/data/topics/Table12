@@ -1,0 +1,10 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+producing the below table:
+
+{| border="5" cellspacing="5" cellpadding="2"
+| style="text-align: center;" | text
+|-
+! Computer
+|-
+| style="color: yellow; background-color: green;" | Processor Speed: <span style="color: white;">1.8 GHz</span>
+|}

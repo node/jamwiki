@@ -1,0 +1,3 @@
+<!--
+test parameter that takes an argument of a page name or defaults to PAGENAME
+-->Named param: {{{param|none}}}, Indexed param: [[{{{1|{{PAGENAME}}}}}]], Optional param: {{{2|none}}}

@@ -1,0 +1,6 @@
+<!-- test headings with characters after the heading close -->
+== Section 1 ==   
+
+== Section 2 == test
+
+== Section 3 ==

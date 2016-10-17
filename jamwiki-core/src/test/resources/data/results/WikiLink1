@@ -1,0 +1,52 @@
+<p><a href="/wiki/en/Example1" title="Example1">Example1</a></p>
+<p><a href="/wiki/en/Example1" title="Example1">text</a></p>
+<p><a href="/wiki/en/Example1" title="Example1">Example1s</a></p>
+<p><a href="/wiki/en/Example1" title="Example1">texts</a></p>
+<p><a href="/wiki/en/Example1" title="Example1">Example1</a>S</p>
+<p><a href="/wiki/en/Example1" title="Example1">text</a>S</p>
+<p><a href="/wiki/en/Example1" title="Example1">Example1</a>9</p>
+<p><a href="/wiki/en/Example1" title="Example1">text</a>9</p>
+<p><a href="/wiki/en/Special:Edit?topic=Comments:Example1" class="edit" title="Comments:Example1">Comments:Example1</a>9</p>
+<p><a href="#Section" title="Section">#Section</a></p>
+<p><a href="#Section" title="Section">text</a></p>
+<p><a href="/wiki/en/Special:Upload" title="Special:Upload">Special:Upload</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=%2B" class="edit" title="+">+</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=%2B_start" class="edit" title="+ start">+ start</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=End_%2B" class="edit" title="end +">end +</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=At_the_%2B_middle" class="edit" title="at the + middle">at the + middle</a></p>
+<p><b>WikiLink1</b></p>
+<p><b>alt text</b></p>
+<p><b><i>italic</i> text</b></p>
+<p><b>WikiLink1</b></p>
+<p><b>WikiLink1</b></p>
+<p><a href="/wiki/test/WikiLink1" title="WikiLink1">WikiLink1</a></p>
+<p><a href="/wiki/test/Special:Edit?topic=Non-existent_topic" class="edit" title="Non-existent topic">Non-existent topic</a></p>
+<p><b>WikiLink1</b></p>
+<p><a href="/wiki/en/Special:Edit?topic=Help:WikiLink1" class="edit" title="Help:WikiLink1">Help:WikiLink1</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=Help:WikiLink1" class="edit" title="Help:WikiLink1">Help:  WikiLink1</a></p>
+<p><a href="/wiki/en/Help:Test" title="Help:Test">Help:Test</a></p>
+<p><a href="/wiki/en/Help:Test" title="Help:Test">Help: Test</a></p>
+<p><a href="/wiki/en/Help:Test" title="Help:Test">Help : Test</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=Invalid:Test" class="edit" title="Invalid:Test">Invalid:Test</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=Invalid:_Test" class="edit" title="Invalid: Test">Invalid: Test</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=Invalid_:_Test" class="edit" title="Invalid : Test">Invalid : Test</a></p>
+<p>[[StartingPoints|Caption with a <a href="/wiki/en/StartingPoints" title="StartingPoints">StartingPoints</a> link]]</p>
+<p>[[StartingPoints|Caption with a <a href="/wiki/en/StartingPoints" title="StartingPoints">alt text</a> link]]</p>
+<p><a href="/wiki/en/StartingPoints" title="StartingPoints">two links</a> on the <a href="/wiki/en/StartingPoints" title="StartingPoints">same line</a></p>
+<p><a href="/wiki/en/StartingPoints" title="StartingPoints">test</a> link]]</p>
+<p><a href="/wiki/en/StartingPoints" title="StartingPoints">test [[ link</a></p>
+<p><a href="/wiki/en/StartingPoints" title="StartingPoints">test http://example.com link</a></p>
+<p><a href="/wiki/en/StartingPoints" title="StartingPoints">test http://example.com link</a></p>
+<p><a href="/wiki/en/StartingPoints" title="StartingPoints">test http://example.com link test</a></p>
+<p><a href="#Section_1" title="Section 1">#Section 1</a></p>
+<p><a href="/wiki/en/WikiLink1#Section_1" title="WikiLink1">WikiLink1#Section 1</a></p>
+<p><a href="#Section_1" title="Section 1">alt text</a></p>
+<p><a href="/wiki/en/WikiLink1#Section_1" title="WikiLink1">alt text</a></p>
+<p><a href="/wiki/en/Example1" title="example1">example1</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=EXample1" class="edit" title="eXample1">eXample1</a></p>
+<p>[[Invalid<Topic]]</p>
+<p><a href="/wiki/en/Special:RecentChanges" title="Special:RecentChanges">Special:RecentChanges</a></p>
+<p><a href="/wiki/en/Special:RecentChanges" title="Special:RecentChanges">Recent Changes</a></p>
+<p><a href="/wiki/en/Special:Test" title="Special:Test">Special:Test</a></p>
+<p><a href="/wiki/en/Example1" title="Example1">#text</a></p>
+<p><a href="/wiki/en/Special:Edit?topic=Comments:Example1" class="edit" title="Comments:Example1">#text</a></p>

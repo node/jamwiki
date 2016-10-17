@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<contextName>jamwiki</contextName>
+
+	<!-- Define a directory where all of your logging goes, e.g. ${catalina.base}/logs -->
+	<property name="LOG_DIR" value="/var/log/jamwiki"/>
+
+	<!-- Three preconfigured appenders are available, by default only 'stdout' is activate and configured -->
+
+	<!-- Sends all logging to standard out, in most cases intercepted by the container
+		 and redirected into a file. Consult your container manual. -->
+	<appender name="jamwiki-stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<!-- Sends all logging to a file and rolls it every day at midnight. At most five files are retained. -->
+	<!--
+	<appender name="jamwiki-dailyfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_DIR}/jamwiki.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>jamwiki.log.%d</fileNamePattern>
+			<maxHistory>5</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{"HH:mm:ss,SSS"} [%thread] %-5level %logger{35} - %msg%n</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+	</appender>
+	-->
+	<!-- Sends all logging to a file and rolls it when 5 MiB are reached. At most three files are retained. -->
+	<!--
+	<appender name="jamwiki-fixedsizefile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_DIR}/jamwiki.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+			<fileNamePattern>jamwiki.log.%i</fileNamePattern>
+			<minIndex>1</minIndex>
+			<maxIndex>3</maxIndex>
+		</rollingPolicy>
+		<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>5MB</maxFileSize>
+		</triggeringPolicy>
+		<encoder>
+			<pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+	</appender>
+	-->
+
+	<logger name="org.jamwiki" level="WARN" />
+	<logger name="net.sf.ehcache.pool.sizeof" level="ERROR" />
+
+	<root level="WARN">
+		<!-- By default all logging goes to standard out -->
+		<!-- If you want to use another appender, remove the comment around it,
+			 define a logging directory ($LOG_DIR), and change the appender reference. -->
+		<appender-ref ref="jamwiki-stdout" />
+	</root>
+</configuration>

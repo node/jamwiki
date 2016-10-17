@@ -1,0 +1,8 @@
+<!-- verify that valid HTML pre tags are parsed correctly -->
+<pre>test</pre>
+
+<pre><u>test</u></pre>
+
+<pre id="pre" style="border:1px solid red" onclick="alert('Hello')" nowrap xml:space="preserve">
+test
+</pre>

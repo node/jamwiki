@@ -1,0 +1,14 @@
+<!-- test usage and rendering of the #ifexist: parser function -->
+1: {{#ifexist: ParserFunctionsIfexist | exists | does not exist}}
+
+2: {{#ifexist: {{PAGENAME}} | exists | does not exist}}
+
+3: {{#ifexist: bogus topic | exists | does not exist}}
+
+4: {{#ifexist: Category:Test | exists | does not exist}}
+
+5: {{#ifexist: File:Test Image.jpg | exists | does not exist}}
+
+6: {{#ifexist: File:Test_Image.jpg | exists | does not exist}}
+
+7: {{#ifexist: File:Fake Image.jpg | exists | does not exist}}

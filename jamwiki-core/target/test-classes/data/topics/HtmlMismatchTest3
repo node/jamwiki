@@ -1,0 +1,2 @@
+<!-- test mis-matched tag closing -->
+<span style="color:red"><font style="font-weight:bold">test</span> test</font>

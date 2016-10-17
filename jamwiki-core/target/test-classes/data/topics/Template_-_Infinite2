@@ -1,0 +1,3 @@
+<!-- test infinite inclusion -->
+template argument is: {{{1}}}
+{{infinite2|arg2}}

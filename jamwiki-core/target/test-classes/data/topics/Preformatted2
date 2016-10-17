@@ -1,0 +1,22 @@
+<!-- verify that preformatted text is formatted correctly with wiki syntax -->
+<pre><nowiki>test</nowiki></pre>
+
+<pre>'''bold'''</pre>
+
+    preformatted text
+
+ preformatted text
+
+ line 1: multi-line preformatted text
+ 
+ line 3: multi-line preformatted text
+
+ line 1: multi-line preformatted text
+  line 2: multi-line preformatted text with space
+   
+ line 4: multi-line preformatted text
+
+ pre <nowiki>
+[[Category:Test]]
+</nowiki>
+ pre

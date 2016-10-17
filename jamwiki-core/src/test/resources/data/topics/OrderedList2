@@ -1,0 +1,29 @@
+<!--
+test nested ordered list functionality
+some of these examples taken from http://meta.wikimedia.org/wiki/Help:Lists,
+licensed under the GFDL
+-->
+#1
+#2
+##2.1
+##2.2
+###2.2.1
+###2.2.2
+#3
+
+break
+
+#list item A1
+##list item B1
+##list item B2
+#:continuing list item A1
+#list item A2
+
+break
+
+#list item A1
+##list item B1
+###list item C1
+##:continuing list item B1
+##list item B2
+#list item A2

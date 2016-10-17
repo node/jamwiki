@@ -1,0 +1,12 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| border="1"
+|+ The table's caption
+! Column heading 1 !! Column heading 2 !! Column heading 3
+|-
+! Row heading 1
+| Cell 2 || Cell 3
+|-
+! Row heading A
+|Cell B
+|Cell C
+|}

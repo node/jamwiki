@@ -1,0 +1,41 @@
+<table border="1">
+<tr>
+<td>&alpha;</td>
+<td align="center">cell2
+<table border="2" style="background:#ABCDEF;">
+<tr>
+<td>NESTED</td>
+</tr>
+<tr>
+<td>TABLE</td>
+</tr>
+</table>
+</td>
+<td valign="bottom">the original table again</td>
+<td style="width:100px;">
+<table border="2" style="background:#ABCDEF;">
+<tr>
+<td>A</td>
+</tr>
+</table>
+<table border="2" style="background:#ABCDEF;">
+<tr>
+<td>B</td>
+<td>B</td>
+</tr>
+</table>
+</td>
+<td style="width:50px;">
+<table border="2" style="background:#ABCDEF; float:left;">
+<tr>
+<td>C</td>
+</tr>
+</table>
+<table border="2" style="background:#ABCDEF; float:right;">
+<tr>
+<td>D</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

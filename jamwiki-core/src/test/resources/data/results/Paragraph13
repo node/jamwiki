@@ -1,0 +1,8 @@
+<table>
+<tr>
+<td>
+<p>A single newline has no effect on the layout. But an empty line</p>
+<p>starts a new paragraph.</p>
+</td>
+</tr>
+</table>

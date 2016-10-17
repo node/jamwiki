@@ -1,0 +1,21 @@
+<!--
+HTML wrapper for the table of contents element.  The arguments are:
+  0 = Heading text for the TOC.
+  1 = The "hide" label for the show/hide message.
+  2 = The "hide" label for the show/hide message.
+  3 = The HTML list of TOC entries to insert into this wrapper element.
+-->
+<table id="toc">
+<tr>
+<th>{0} <span class="toctoggle hidden" id="toggle-link-wrapper">[<a id="toggle-link" href="#">{1}</a>]</span></th>
+</tr>
+<tr>
+<td id="toc-content">
+{3}
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+JAMWiki.UI.removeClass(document.getElementById("toggle-link-wrapper"), "hidden");
+JAMWiki.UI.initializeTocToggle("{1}", "{2}");
+</script>

@@ -1,0 +1,11 @@
+<iframe></iframe>
+
+<iframe />
+
+<iframe src="http://www.yahoo.com/" />
+
+<iframe src="{{localurl:Example}}" />
+
+<iframe src="{{localurl:Example}}" id="iframe_id" bogus="fake attribute">
+
+</iframe>

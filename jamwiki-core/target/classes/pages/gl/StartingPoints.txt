@@ -1,0 +1,19 @@
+<div style="text-align:center;font-weight:bold;color:green;font-size:150%">JAMWiki foi instalado con éxito!</div>
+
+Pode editar calquera páxina premendo na pestana "Editar" na parte superior da páxina. A configuración desta instalación pode modificarse na páxina[[Special: Admin]].  Ademais, para cambiar o aspecto do seu Wiki pódense actualizar estes temas:
+
+* [[JAMWiki:Sidebar]] - O menú esquerdo de navegación que aparece en cada páxina.
+* [[JAMWiki:Footer]] - O pé de páxina que aparece en cada páxina.
+* [[JAMWiki:Header]]
+* [[JAMWiki:Custom.css]] - A folla de estilos que contén información de estilo CSS para o seu wiki.
+
+Para rematar, por favor contribúan ao proxecto JAMWiki presentando informes do éxito ou fracaso da súa instalación en [http://jamwiki.org/ jamiki.org] de modo que JAMWiki poida seguir mellorando.  Ademais, en [http://jamwiki.org/ jamwiki.org] atópase a documentación actualizada de JAMWiki, incluíndo instrucións para personalizar aínda máis a súa instalación.
+
+Outras funcións útiles:
+
+* [[Special:RecentChanges]] - Lista de temas Wiki modificados recentemente.
+* [[Special:Upload]] - Utilízase para subir arquivos e imaxes ao Wiki.
+* [[Special:Search]] - Procurar no Wiki.
+* [[Special:Account]] - Crear unha conta para que as modificacións sexan correctamente acreditadas.
+* [[Special:AllPages]] - Lista de todos os temas do Wiki.
+* [[Special:SpecialPages]] - Índice das páxinas "Especiais" do Wiki.

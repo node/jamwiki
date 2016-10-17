@@ -1,0 +1,16 @@
+<!-- test definition lists of the form "; term : definition" -->
+; term1 : defintion1
+
+; term2 : definition2 : definition
+
+; term3 : 
+
+; term4 :   
+
+test
+
+;
+
+; term5
+;
+: definition3

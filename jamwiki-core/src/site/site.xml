@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Jamwiki-Core Site - from site.xml">
+ <body>
+   <menu ref="parent"/> <!-- Erzeugt Link zum Parent-Modul-->
+   <breadcrumbs>
+     <item name="jamwiki-core" href="index.html" mce_href="index.html"/>
+   </breadcrumbs>
+   <menu ref="modules"/>
+   <menu ref="reports"/>
+ </body>
+</project>
+

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+</head>
+<body>
+Provides classes that work with the <a href="http://springframework.org/" target="_top">Spring Framework</a> to process HTTP requests and to then redirect appropriately.  To create a new Wiki page the following steps should be followed:
+
+<ul>
+<li>Modify the <code>/WEB-INF/jamwiki-servlet.xml</code> file to add a mapping and a servlet handler.
+<ul>
+<li>The mapping is the URL pattern.  For example <code>&lt;prop key="/**/Special:MyPage"&gt;MyHandler&lt;/prop&gt;</code>.</li>
+<li>The handler links the mapping with a servlet.  For example: <code>&lt;bean id="MyHandler" class="org.jamwiki.servlets.MyServlet" /&gt;</code>.</li>
+</ul>
+</li>
+<li>Make sure JAMWiki recognizes the page as an existing special page by adding a pseudotopic entry to <code>org.jamwiki.utils.PseudoTopicHandler</code>.</li>
+<li>Create the servlet specified in the <code>jamwiki-servlet.xml</code> file (<code>org.jamwiki.servlets.MyServlet</code>).  The servlet should extend {@link org.jamwiki.servlets.JAMWikiServlet}.</li>
+<li>Create a JSP for the page display.  Within your servlet the {@link org.jamwiki.servlets.WikiPageInfo#setContentJsp} method should be called to link the new JSP page with your servlet.</li>
+</ul>
+
+</body>
+</html>

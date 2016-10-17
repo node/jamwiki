@@ -1,0 +1,9 @@
+<!-- test handling of multiple empty lines -->
+
+
+
+
+
+{|
+| text
+|}

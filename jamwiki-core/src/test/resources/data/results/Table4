@@ -1,0 +1,8 @@
+<table>
+<tr>
+<td style="background:red; color:white">abc</td>
+<td>def</td>
+<td bgcolor="red"><font color="white">ghi</font></td>
+<td>jkl</td>
+</tr>
+</table>

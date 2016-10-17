@@ -1,0 +1,5 @@
+<!--
+HTML wrapper for a right-aligned image.  The arguments are:
+  0 = Image HTML.
+-->
+<div class="floatright">{0}</div>

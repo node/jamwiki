@@ -1,0 +1,11 @@
+<!-- test paragraph parsing with table tags -->
+{|
+|-
+|
+A single newline
+has no effect
+on the layout.
+But an empty line
+
+starts a new paragraph.
+|}

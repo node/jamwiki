@@ -1,0 +1,6 @@
+[main] INFO org.jamwiki.parser.jflex.AbstractJAMWikiCustomTagLexer - Initializing custom parser tag: org.jamwiki.parser.jflex.GalleryTag
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseMetadata) for Test Page 1 (0.028 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseMetadata) for Template comments:Test Template (0.006 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseMetadata) for Test Page 2 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseMetadata) for Who am i (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseMetadata) for Namespace Test (0.003 s.)

@@ -1,0 +1,5 @@
+<!--
+HTML wrapper for a left-aligned image.  The arguments are:
+  0 = Image HTML.
+-->
+<div class="floatleft">{0}</div>

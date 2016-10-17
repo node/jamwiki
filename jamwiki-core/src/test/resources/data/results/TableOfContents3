@@ -1,0 +1,24 @@
+<table id="toc">
+<tr>
+<th>Contents <span class="toctoggle hidden" id="toggle-link-wrapper">[<a id="toggle-link" href="#">hide</a>]</span></th>
+</tr>
+<tr>
+<td id="toc-content">
+<ul>
+<li><a href="#a_1"><span class="tocnumber">1</span> <span class="toctext">1</span></a><ul>
+<li><a href="#a_1.1"><span class="tocnumber">1.1</span> <span class="toctext">1.1</span></a></li>
+</ul></li>
+<li><a href="#a_2"><span class="tocnumber">2</span> <span class="toctext">2</span></a></li>
+<li><a href="#a_3"><span class="tocnumber">3</span> <span class="toctext">3</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+JAMWiki.UI.removeClass(document.getElementById("toggle-link-wrapper"), "hidden");
+JAMWiki.UI.initializeTocToggle("hide", "show");
+</script>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents3&amp;section=1">Edit</a>]</span><span id="a_1">1</span></h2>
+<h3><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents3&amp;section=2">Edit</a>]</span><span id="a_1.1">1.1</span></h3>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents3&amp;section=3">Edit</a>]</span><span id="a_2">2</span></h2>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents3&amp;section=4">Edit</a>]</span><span id="a_3">3</span></h2>

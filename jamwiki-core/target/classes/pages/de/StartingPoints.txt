@@ -1,0 +1,21 @@
+﻿<div style="text-align:center;font-weight:bold;color:green;font-size:150%">JAMWiki wurde erfolgreich installiert!</div>
+
+Sie können jede Seite bearbeiten, in dem Sie den Reiter "Seite bearbeiten" oberhalb eines Textes anklicken.
+Konfigurationseinstellungen für dieses Wiki können auf der Spezialseite [[Special:Admin]] angepasst werden. 
+Zusätzlich können die folgenden Seiten geändert werden, um das Aussehen Ihres Wikis individuell anzupassen:
+
+* [[JAMWiki:Sidebar]] - Das links auf jeder Seite vorhandene Navigationsmenü.
+* [[JAMWiki:Footer]] - Die Fußzeile die unten auf jeder Seite erscheint.
+* [[JAMWiki:Header]]
+* [[JAMWiki:Custom.css]] - Das Stylesheet das CSS Konfigurationseinstellungen zur grafischen Gestaltung dieser Webseiten enthält.
+
+Bitte teilen Sie uns auf [http://jamwiki.org/ jamwiki.org] mit, ob Ihre JAMWiki Installation erfolgreich war. Rückmeldungen, Fragen und Bug-Beschreibungen sollten Sie bitte auch unter [http://jamwiki.org/ jamwiki.org] hinterlassen, so dass JAMWiki stetig weiter verbessert werden kann. Zusätzlich finden Sie auf [http://jamwiki.org/ jamwiki.org] immer die aktuellste Dokumentation, die z.B. auch beschreibt, wie Sie Ihre Installation weiter für Ihre Bedürfnisse anpassen können.
+
+Einige weitere nützliche Funktionen:
+
+* [[Special:RecentChanges]] - Eine Liste der zuletzt geänderten Wiki Artikel.
+* [[Special:Upload]] - Spezialseite zum Hochladen von Dateien und Bildern in das Wiki benutzt.
+* [[Special:Search]] - Spezialseite zum Durchsuchen des Wikis.
+* [[Special:Account]] - Legen Sie ein Benutzerkonto an, so dass Änderungen an den Wiki Artikeln Ihrem Benutzer entsprechend zugeordnet werden können.
+* [[Special:AllPages]] - Eine Liste aller Wiki Artikel.
+* [[Special:SpecialPages]] - Ein Index der vorhandenen Spezialseiten.

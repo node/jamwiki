@@ -1,0 +1,15 @@
+<!-- verify parsing of HTML comments -->
+test
+<!-- suppress newline -->
+<!-- suppress newline -->
+<!-- suppress newline -->
+<!-- suppress newline -->
+test
+
+test
+<!-- suppress newline -->  
+<!-- suppress newline -->
+
+<!-- suppress newline -->
+<!-- suppress newline -->
+test

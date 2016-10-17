@@ -1,0 +1,6 @@
+{{#switch: {{FULLPAGENAME}}
+| TemplateDepth =
+Included via the "TemplateDepth" option
+| #default =
+Included via the "#default" option
+}}

@@ -1,0 +1,7 @@
+<table class="wikitable" style="text-align:left">
+<caption align="bottom">My special table caption for &lt;Name of Topic&gt;</caption>
+<tr>
+<td><b>Start</b></td>
+<td colspan="3">&lt;From Date - To Date&gt;</td>
+</tr>
+</table>

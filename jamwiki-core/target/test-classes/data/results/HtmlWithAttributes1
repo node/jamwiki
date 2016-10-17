@@ -1,0 +1,23 @@
+<p><font style="test">text</font></p>
+<p><font style="test" color="red">text</font></p>
+<p>&lt; font   style=&quot;test&quot; color=&quot;red&quot;  &gt;text&lt;  /  font  &gt;</p>
+<p><font color="red">text</font></p>
+<p><font color="red">text</font></p>
+<p><br style="height:10px" /></p>
+<p>&lt;address style=&quot;margin:10px&quot; onclick=&quot;alert('Hello')&quot;&gt;address&lt;/address&gt;</p>
+<center id="center_id">center</center>
+<p><span id="span_id">span</span> <em id="em_id2">em</em></p>
+<p><strong>strong</strong> &lt;dfn ID=&quot;dfn_id&quot;&gt;dfn&lt;/dfn&gt;</p>
+<p><code id="code_id">code</code> &lt;samp&gt;samp&lt;/samp&gt; &lt;kbd&gt;kbd&lt;/kbd&gt;</p>
+<p><var id="var_id">var</var> <cite id="cite_id">cite</cite> <abbr id="abbr_id">abbr</abbr> &lt;acronym&gt;acronym&lt;/acronym&gt;</p>
+<p><sub>sub</sub> <sup>sup</sup> <tt>tt</tt> <i>i</i> <b>b</b> <big>big</big> <small>small</small> <u>u</u> <s>s</s> <strike>strike</strike></p>
+<div id="div_id">
+<p>test</p>
+</div>
+<blockquote id="blockquote" cite="cite">
+<p>blockquote</p>
+</blockquote>
+<p><ins cite="cite">test</ins> <del cite="cite">test</del></p>
+<hr noshade="noshade" align="left" />
+<hr noshade align="left" />
+<p><br clear="left" /></p>

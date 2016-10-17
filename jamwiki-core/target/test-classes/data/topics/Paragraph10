@@ -1,0 +1,13 @@
+<!-- test paragraph parsing with paragraph tags -->
+text<p>
+
+text<p>
+
+text
+
+<p>text</p>
+
+text
+
+text</p>
+text

@@ -1,0 +1,4 @@
+<!--
+test category inclusion from a template
+-->
+<includeonly>{{ #if: {{{2|}}} | [[Category:Test {{{1}}}]] [[Category:Test {{{2}}}]] | [[Category:Test {{{1}}}]] }}</includeonly>

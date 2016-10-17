@@ -1,0 +1,195 @@
+<p>plain image</p>
+<p><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></p>
+<p>image link</p>
+<p><a href="/wiki/en/File:Test_Image.jpg" title="File:Test Image.jpg">File:Test Image.jpg</a></p>
+<p>image link with caption</p>
+<p><a href="/wiki/en/File:Test_Image.jpg" title="File:Test Image.jpg">Caption for link</a></p>
+<p>non-existent image with caption</p>
+<p><a href="/wiki/en/Special:Upload?topic=File:Non_Existent_Image.jpg" class="edit" title="Special:Upload">File:Non Existent Image.jpg</a></p>
+<p>left-aligned image</p>
+<div class="floatleft"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></div>
+<p>right-aligned image</p>
+<div class="floatright"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></div>
+<p>centered image</p>
+<div class="center">
+<div class="floatnone"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></div>
+</div>
+<p>unformatted image</p>
+<div class="floatnone"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></div>
+<p>thumbnail image</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></div>
+</div>
+<p>bordered image</p>
+<p><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg thumbborder" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></p>
+<p>framed image</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:402px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></div>
+</div>
+<p>frameless image</p>
+<p><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></p>
+<p>frameless bordered image</p>
+<p><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg thumbborder" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></p>
+<p>centered thumbnail</p>
+<div class="center">
+<div class="thumb tnone">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></div>
+</div>
+</div>
+<p>right-aligned thumbnail</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></div>
+</div>
+<p>left-aligned thumbnail</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></div>
+</div>
+<p>plain image with caption</p>
+<p><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="this is a caption blah blah blah blah blah blah blah blah blah blah blah"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="this is a caption blah blah blah blah blah blah blah blah blah blah blah" /></a></p>
+<p>left-aligned image with caption</p>
+<div class="floatleft"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="this is a caption blah blah blah blah blah blah blah blah blah blah blah"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="this is a caption blah blah blah blah blah blah blah blah blah blah blah" /></a></div>
+<p>unformatted image with caption</p>
+<div class="floatnone"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="this is a caption blah blah blah blah blah blah blah blah blah blah blah"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="this is a caption blah blah blah blah blah blah blah blah blah blah blah" /></a></div>
+<p>thumbnail with caption</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">this is a caption blah blah blah blah blah blah blah blah blah blah blah</div>
+</div>
+</div>
+<p>bordered image with caption</p>
+<p><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="this is a caption blah blah blah blah blah blah blah blah blah blah blah"><img class="wikiimg thumbborder" src="/files/test_image.jpg" width="400" height="267" alt="this is a caption blah blah blah blah blah blah blah blah blah blah blah" /></a></p>
+<p>framed image with caption</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:402px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">this is a caption blah blah blah blah blah blah blah blah blah blah blah</div>
+</div>
+</div>
+<p>frameless image with caption</p>
+<p><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="this is a caption blah blah blah blah blah blah blah blah blah blah blah"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="this is a caption blah blah blah blah blah blah blah blah blah blah blah" /></a></p>
+<p>left-aligned thumbnail with caption</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">this is a caption blah blah blah blah blah blah blah blah blah blah blah</div>
+</div>
+</div>
+<p>image within a paragraph <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a> test to make sure text flows</p>
+<p>thumbnail within a paragraph</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></div>
+</div>
+<p>test to make sure text breaks</p>
+<p>vertical align standard <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" style="vertical-align: baseline" /></a></p>
+<p>vertical align thumbnail</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></div>
+</div>
+<p>vertical align frame</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:402px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></div>
+</div>
+<p>vertical align left</p>
+<div class="floatleft"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" style="vertical-align: baseline" /></a></div>
+<p>alt tag standard <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="caption"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="alternate text" /></a></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="alternate text" /></a>
+<div class="thumbcaption">caption</div>
+</div>
+</div>
+<p>blank alt #1 <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="" /></a></p>
+<p>blank alt #2 <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="" /></a></p>
+<p>internal link #1 <a class="wikiimg" href="/wiki/en/StartingPoints"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></p>
+<p>internal link #2 <a class="wikiimg" href="/wiki/en/StartingPoints"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></p>
+<p>internal link #3 <a class="wikiimg" rel="nofollow" href="http://www.example.com/"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></p>
+<p>internal link #4 <img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></p>
+<p>internal link #5 <a class="wikiimg" href="/wiki/test/StartingPoints"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></p>
+<p>internal link #6</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a></div>
+</div>
+<p><a href="/files/test_image.jpg" title="Media:Test Image.jpg">Media:Test Image.jpg</a></p>
+<p><a href="/files/test_image.jpg" title="Media:Test Image.jpg">test image caption</a></p>
+<p><a href="/wiki/en/Special:Upload?topic=File:Non-existent_image.jpg" title="Media:Non-existent image.jpg">Media:Non-existent image.jpg</a></p>
+<p><a href="/wiki/en/Special:Upload?topic=File:Non-existent_image.jpg" title="Media:Non-existent image.jpg">non-existent image caption</a></p>
+<p>resize #1 <img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></p>
+<p>resize #2 <img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></p>
+<p>resize #3 <img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></p>
+<p>resize #4 <img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></p>
+<p>resize #5 <img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></p>
+<p>resize #6 <img class="wikiimg" src="/files/test_image.jpg" width="800" height="534" alt="Test Image.jpg" /></p>
+<p>resize #7 <img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></p>
+<p>caption test #1</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Caption with a <a href="/wiki/en/StartingPoints" title="StartingPoints">StartingPoints</a> link</div>
+</div>
+</div>
+<p>caption test #2</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Caption with a <a href="/wiki/en/StartingPoints" title="StartingPoints">alt text</a> link</div>
+</div>
+</div>
+<p>caption test #3</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Caption with a <a class="externallink" rel="nofollow" href="http://example.com/">[1]</a> link</div>
+</div>
+</div>
+<p>caption test #4</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Caption with a <a class="externallink" rel="nofollow" href="http://example.com/">example</a> link</div>
+</div>
+</div>
+<p>caption test #5</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Caption with a <a class="externallink" rel="nofollow" href="http://example.com/">http://example.com/</a> link</div>
+</div>
+</div>
+<p>caption test #6</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Caption with a <a class="externallink" rel="nofollow" href="http://example.com/">[2]</a></div>
+</div>
+</div>
+<p>caption test #7</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Caption with a <a class="externallink" rel="nofollow" href="http://example.com/">link</a></div>
+</div>
+</div>
+<p>caption test #8</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Test [[ Caption</div>
+</div>
+</div>
+<p>caption test #9</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">Test</div>
+</div>
+</div>
+<p>Caption]]</p>
+<p>caption test #10</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">caption2</div>
+</div>
+</div>
+<p>caption test #11 <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="caption"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="caption" /></a></p>
+<p>caption test #12 <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="caption"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="caption" /></a></p>
+<p>caption test #13 <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="caption"><img class="wikiimg thumbborder" src="/files/test_image.jpg" width="400" height="267" alt="caption" /></a></p>
+<p>caption test #14 <a class="wikiimg" href="/wiki/en/File:Test_Image.jpg" title="caption &quot; test"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="caption &quot; test" /></a></p>
+<p><a href="/wiki/en/Special:Upload?topic=File:Invalid_Image_%22Name%22.jpg" class="edit" title="Special:Upload">File:Invalid Image &quot;Name&quot;.jpg</a></p>
+<p>image link on alt virtual wiki</p>
+<p><a href="/wiki/test/File:Test_Image.jpg" title="File:Test Image.jpg">File:Test Image.jpg</a></p>
+<p>non-existent image link on alt virtual wiki</p>
+<p><a href="/wiki/test/Special:Edit?topic=File:Non_Existent_Image.jpg" class="edit" title="File:Non Existent Image.jpg">Caption for link</a></p>
+<p>support legacy thumbnails</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/resized/test_image-300px.jpg" width="220" height="147" alt="Test Image.jpg" /></a>
+<div class="thumbcaption">This is the caption</div>
+</div>
+</div>

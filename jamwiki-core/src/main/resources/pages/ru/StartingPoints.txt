@@ -1,0 +1,17 @@
+<div style="text-align:center;font-weight:bold;color:green;font-size:150%">JAMWiki была успешно установлена!</div>
+
+=== Что делать дальше ===
+
+# Изменить внешний вид Wiki отредактировав файлы [[JAMWiki:Sidebar|левое меню]], [[JAMWiki:Footer|нижний колонтитул]], [[JAMWiki:Header|заголовок]] и (для продвинутых пользователь) [[JAMWiki:Custom.css|CSS стили]].
+# Изменить кофигурационный настройки на странице [[Special:Admin]].  Эта страница содержит множество настроек включая название сайта, описание и установки по умолчанию.
+# Посетить http://jamwiki.org/, чтобы ознакомиться с подробной документацией, сообщить о найденых ошибках и оставить отзыв.
+# Посетить https://lists.sourceforge.net/lists/listinfo/jamwiki-announce и подписаться на jamwiki-announce лист рассылки чтобы получать информацию о новых версиях.
+
+=== Другие полезные страницы ===
+
+* [[Special:SpecialPages]] - Список "Особых" страниц wiki.
+* [[Special:RecentChanges]] - Список недавно отредактированных Wiki тем.
+* [[Special:Upload]] - Используется для загрузки файлов и изображений на Wiki.
+* [[Special:Search]] - Поиск по Wiki.
+* [[Special:Account]] - Создание учётной записи для указания авторства.
+* [[Special:AllPages]] - Список всех тем на Wiki.

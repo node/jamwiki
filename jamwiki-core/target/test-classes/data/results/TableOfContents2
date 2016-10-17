@@ -1,0 +1,32 @@
+<table id="toc">
+<tr>
+<th>Contents <span class="toctoggle hidden" id="toggle-link-wrapper">[<a id="toggle-link" href="#">hide</a>]</span></th>
+</tr>
+<tr>
+<td id="toc-content">
+<ul>
+<li><a href="#test"><span class="tocnumber">1</span> <span class="toctext">test</span></a></li>
+<li><a href="#test_2"><span class="tocnumber">2</span> <span class="toctext">test_2</span></a></li>
+<li><a href="#test_1"><span class="tocnumber">3</span> <span class="toctext">test</span></a></li>
+<li><a href="#test_3"><span class="tocnumber">4</span> <span class="toctext">test</span></a></li>
+<li><a href="#A.C3.A7.C3.A3o"><span class="tocnumber">5</span> <span class="toctext">A&ccedil;&atilde;o</span></a></li>
+<li><a href="#A.C3.A7.C3.A3o_1"><span class="tocnumber">6</span> <span class="toctext">A&ccedil;&atilde;o</span></a></li>
+<li><a href="#A.C3.A7.C3.A3o_2"><span class="tocnumber">7</span> <span class="toctext">A&ccedil;&atilde;o</span></a></li>
+<li><a href="#A.C3.A7.C3.A3o_3"><span class="tocnumber">8</span> <span class="toctext">A&ccedil;&atilde;o</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+JAMWiki.UI.removeClass(document.getElementById("toggle-link-wrapper"), "hidden");
+JAMWiki.UI.initializeTocToggle("hide", "show");
+</script>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=1">Edit</a>]</span><span id="test">test</span></h2>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=2">Edit</a>]</span><span id="test_2">test_2</span></h2>
+<p><a href="#A.C3.A7.C3.A3o" title="A&ccedil;&atilde;o">#Ação</a></p>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=3">Edit</a>]</span><span id="test_1">test</span></h2>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=4">Edit</a>]</span><span id="test_3">test</span></h2>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=5">Edit</a>]</span><span id="A.C3.A7.C3.A3o">A&ccedil;&atilde;o</span></h2>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=6">Edit</a>]</span><span id="A.C3.A7.C3.A3o_1">A&ccedil;&atilde;o</span></h2>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=7">Edit</a>]</span><span id="A.C3.A7.C3.A3o_2"><b>A&ccedil;&atilde;o</b></span></h2>
+<h2><span class="editsection">[<a href="/wiki/en/Special:Edit?topic=TableOfContents2&amp;section=8">Edit</a>]</span><span id="A.C3.A7.C3.A3o_3"><b>A&ccedil;&atilde;o</b></span></h2>

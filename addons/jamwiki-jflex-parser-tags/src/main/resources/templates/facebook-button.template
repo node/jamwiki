@@ -1,0 +1,12 @@
+<!--
+HTML wrapper for Facebook like/recommend buttons.  See
+http://developers.facebook.com/docs/reference/plugins/like/ for additional
+details. The arguments are:
+  0 = Full page URL to like/recommend.
+  1 = true/false, depending on whether to include a "Send" button.
+  2 = Layout type.  One of "button_count", "standard" or "box_count".
+  3 = Width in pixels of the generate Facebook button.
+  4 = true/false, depending on whether to include profile pictures.
+  5 = Tag attribute name for the verb to use - either "like" or "recommend".  Defaults to "like".
+-->
+<div class="fb-like" data-href="{0}" data-send="{1}" data-layout="{2}" data-width="{3}" data-show-faces="{4}" data-action="{5}"></div>

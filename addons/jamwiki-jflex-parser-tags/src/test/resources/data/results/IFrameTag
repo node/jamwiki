@@ -1,0 +1,5 @@
+<iframe></iframe>
+<iframe></iframe>
+<iframe src="http://www.yahoo.com/"></iframe>
+<iframe src="/wiki/en/Example"></iframe>
+<iframe src="/wiki/en/Example" id="iframe_id"></iframe>

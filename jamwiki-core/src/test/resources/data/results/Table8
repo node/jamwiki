@@ -1,0 +1,12 @@
+<table border="1" cellpadding="2">
+<tr>
+<td width="100pt">This column is 100 points wide</td>
+<td width="200pt">This column is 200 points wide</td>
+<td width="300pt">This column is 300 points wide</td>
+</tr>
+<tr>
+<td>blah</td>
+<td>blah</td>
+<td>blah</td>
+</tr>
+</table>

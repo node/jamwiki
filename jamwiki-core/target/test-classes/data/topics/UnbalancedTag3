@@ -1,0 +1,6 @@
+<!-- test unbalanced tag handling -->
+<ol>
+<li>item
+</ol>
+
+non-list

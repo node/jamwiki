@@ -1,0 +1,3 @@
+<facebook locale="en_GB" app-id="123456789" />
+<facebook data-href="{{fullurl:IFrameTag}}" app-id="123456789" data-layout="box_count" data-send="true" data-show-faces="true" data-width="600" data-action="recommend" />
+<facebook data-layout="bogus_layout" data-send="bogus_send" data-show-faces="bogus_show" data-width="bogus_width" />

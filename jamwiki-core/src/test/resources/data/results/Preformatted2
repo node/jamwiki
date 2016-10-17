@@ -1,0 +1,29 @@
+<pre>
+test
+</pre>
+<pre>
+'''bold'''
+</pre>
+<pre>
+   preformatted text
+</pre>
+<pre>
+preformatted text
+</pre>
+<pre>
+line 1: multi-line preformatted text
+ 
+line 3: multi-line preformatted text
+</pre>
+<pre>
+line 1: multi-line preformatted text
+ line 2: multi-line preformatted text with space
+  
+line 4: multi-line preformatted text
+</pre>
+<pre>
+pre 
+[[Category:Test]]
+
+pre
+</pre>

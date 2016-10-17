@@ -1,0 +1,8 @@
+<p>http://example.com/files/test_image.jpg</p>
+<p><a class="externallink" rel="nofollow" href="http://example.com/files/test_image.jpg">http://example.com/files/test_image.jpg</a></p>
+<p>/wiki/en/Example1?name=value</p>
+<p>/wiki/en/Test_Topic?name=value</p>
+<p>/wiki/en/Example1?name1=value1</p>
+<p><a class="externallink" rel="nofollow" href="http://example.com/wiki/en/Example1?name=value">http://example.com/wiki/en/Example1?name=value</a></p>
+<p><a class="externallink" rel="nofollow" href="http://example.com/wiki/en/Test_Topic?name=value">http://example.com/wiki/en/Test_Topic?name=value</a></p>
+<p><a class="externallink" rel="nofollow" href="http://example.com/wiki/en/Test_Topic?name1=value1">http://example.com/wiki/en/Test_Topic?name1=value1</a></p>

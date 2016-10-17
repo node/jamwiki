@@ -1,0 +1,10 @@
+<!-- validate table of contents with duplicate heading names -->
+==test==
+==test_2==
+[[#Ação]]
+==test==
+==test==
+==Ação==
+==Ação==
+==<b>Ação</b>==
+=='''Ação'''==

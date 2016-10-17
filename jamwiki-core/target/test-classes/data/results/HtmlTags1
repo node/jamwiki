@@ -1,0 +1,7 @@
+<p>text<br />
+text<br />
+text</p>
+<p>text<br />
+text<br class="dummy" /></p>
+<p>text<br class="dummy" /></p>
+<p>&lt;bogus&gt;this is a fake tag&lt;/bogus&gt;</p>

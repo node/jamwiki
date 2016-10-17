@@ -1,0 +1,29 @@
+<!-- test usage and rendering of the #switch: parser function -->
+1: {{#switch: second | first = this is the first | second = this is the second | #default = this is the default }}
+
+2: {{#switch: first | first = this is the first | second = this is the second }}
+
+3: {{#switch: third | first = this is the first | #default = this is the default | second = this is the second }}
+
+4: {{#switch: third | first = this is the first | second = this is the second | this is the default }}
+
+5: {{#switch: {{FULLPAGENAME}} | first = this is the first | ParserFunctionsSwitch = this is the second | #default = this is the default }}
+
+6: {{#switch: {{FULLPAGENAME}} | first = this is the first | ParserFunctionsSwitch = '''bold text''' | #default = this is the default }}
+
+7: {{#switch: {{FULLPAGENAME}}
+ | first = this is the first
+ | ParserFunctionsSwitch = '''bold text'''
+ | #default = this is the default
+}}
+
+8: {{#switch: no_match
+ | first = this is the first
+ | second = this is the second
+}}
+
+9: {{#switch: first | first | second | this is the default }}
+
+10: {{#switch: second | first = this is first | second | third = this is the third | this is the default }}
+
+11: {{#switch: third | first | second = this is second | third | fourth = this is fourth }}

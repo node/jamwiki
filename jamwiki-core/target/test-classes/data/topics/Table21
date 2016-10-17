@@ -1,0 +1,9 @@
+<!-- test whitespace in tables -->
+{|
+|-  
+|   
+| test
+|-	 
+| test
+|	 test
+|}

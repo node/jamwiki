@@ -1,0 +1,44 @@
+<!-- test whitespace around template arguments -->
+{{reprint    |content=test}}
+
+{{reprint|  content=test}}
+
+{{reprint|content   =test}}
+
+{{reprint|   content   =test}}
+
+{{reprint|content=    test}}
+
+{{reprint|content=test    }}
+
+{{reprint|content=    test    }}
+
+{{reprint|
+content=    test
+}}
+
+{{reprint
+| content=    test
+}}
+
+{{reprint
+| content=
+test}}
+
+{{reprint|content={{test template}}}}
+
+{{embed|content=test template}}
+
+{{reprint|content={{embed|content=test template}}}}
+
+{{paramtest}}
+
+{{paramtest|Example1}}
+
+{{paramtest|param=Example1}}
+
+{{paramtest|StartingPoints|param=Example1}}
+
+{{paramtest|2=optional|param=param|1=Example1}}
+
+{{reprintNum|foo{{equals}}bar}}

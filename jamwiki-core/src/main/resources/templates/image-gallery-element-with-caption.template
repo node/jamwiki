@@ -1,0 +1,17 @@
+<!--
+HTML for the div that wraps an image gallery element.  The arguments are:
+  0 = Gallery element wrapper div width in pixels.
+  1 = Vertical padding in pixels.
+  2 = Gallery element inner div width in pixels.
+  3 = Image HTML.
+  4 = Gallery caption text.
+-->
+<!-- vertical padding centers the image in the box.  the extra 4 pixels are padding. -->
+<div style="width:{0,number,#}px;" class="gallerybox">
+<div class="thumb" style="padding:{1,number,#}px 0;">
+<div class="thumbinner" style="width:{2,number,#}px; margin:0 auto;">{3}</div>
+</div>
+<div class="gallerytext">
+<p>{4}</p>
+</div>
+</div>

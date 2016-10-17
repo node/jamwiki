@@ -1,0 +1,2 @@
+<!-- verify that the <__NOPARSE> directive cannot be abused -->
+<__NOPARSE>content ''within'' this tag '''should''' be parsed</__NOPARSE>

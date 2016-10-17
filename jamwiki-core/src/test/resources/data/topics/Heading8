@@ -1,0 +1,22 @@
+<!-- test html headings -->
+== first ==
+
+first
+
+== second ==
+
+second
+
+<h2>third</h2>
+
+third
+
+<h2 style="color: red">fourth</h2>
+fourth
+<h2 bogus="attribute">fifth</h2>
+fifth
+<h2>sixth</h2>
+sixth
+
+<h2>seventh</h2>
+seventh

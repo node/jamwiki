@@ -1,0 +1,12 @@
+<!-- test multiple tables -->
+{|
+|-
+| test
+|-
+|}
+
+{|
+|-
+| test
+|-
+|}

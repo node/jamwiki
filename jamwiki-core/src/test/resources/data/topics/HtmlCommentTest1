@@ -1,0 +1,9 @@
+<!-- verify parsing of HTML comments -->
+
+This is text<!-- comment --> that contains an embedded comment.
+
+Wiki text ''i<!-- comment -->'' with comment.
+
+<!-- comment -->start of line comment.
+
+end of line comment.<!-- comment -->

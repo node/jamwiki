@@ -1,0 +1,4 @@
+<!-- test template inclusion and processing of template names -->
+{{Test Template}}
+
+{{Test_Template}}

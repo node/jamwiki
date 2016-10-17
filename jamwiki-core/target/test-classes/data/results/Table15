@@ -1,0 +1,28 @@
+<table align="center" rules="all">
+<tr>
+<td style="display:none; color: red" nowrap>1</td>
+<td>2</td>
+</tr>
+</table>
+<table id="table" align="left" bgcolor="red" summary="table description">
+<caption id="caption" align="center">caption</caption>
+<colgroup align="left">
+<col />
+<col span="2" class="alternate" />
+</colgroup>
+<thead valign="middle">
+<tr bgcolor="blue">
+<th rowspan="3" colspan="2">1</th>
+</tr>
+</thead>
+<tbody valign="middle">
+<tr>
+<td rowspan="3" nowrap colspan="2">2</td>
+</tr>
+</tbody>
+<tfoot valign="middle">
+<tr align="left">
+<td rowspan="3" nowrap="nowrap" colspan="2">3</td>
+</tr>
+</tfoot>
+</table>

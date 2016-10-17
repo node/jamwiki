@@ -1,0 +1,10 @@
+<!-- test preformatted handling with templates -->
+ {{reprint|content=test}}
+
+<pre>{{reprint|content=test}}</pre>
+
+ <pre>{{reprint|content=test}}</pre>
+
+ ~~~ 
+
+<pre>~~~</pre>

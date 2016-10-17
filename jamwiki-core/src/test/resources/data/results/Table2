@@ -1,0 +1,18 @@
+<table border="1">
+<caption>The table's caption</caption>
+<tr>
+<th>Column heading 1</th>
+<th>Column heading 2</th>
+<th>Column heading 3</th>
+</tr>
+<tr>
+<th>Row heading 1</th>
+<td>Cell 2</td>
+<td>Cell 3</td>
+</tr>
+<tr>
+<th>Row heading A</th>
+<td>Cell B</td>
+<td>Cell C</td>
+</tr>
+</table>

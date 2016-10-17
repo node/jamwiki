@@ -1,0 +1,12 @@
+<!-- test a variety of HTML link syntax for http: links -->
+http://www.google.com
+
+[http://www.google.com]
+
+[http://www.google.com Caption]
+
+[http://www.google.com Multiple word caption]
+
+[http://www.google.com '''Bold caption''']
+
+[http://www.google.com]

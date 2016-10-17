@@ -1,0 +1,18 @@
+<!-- image gallery test -->
+<gallery>
+File:Test Image.jpg|Item 1
+File:Test Image.jpg|a link to [[Example1]]
+File:Test Image.jpg
+File:Test Image.jpg
+File:Test Image.jpg| ''italic caption''
+File:Test Image.jpg|on page "{{PAGENAME}}"
+</gallery>
+<!-- test with gallery attributes -->
+<gallery WIDTHS=90 perRow  = "3" heights=80px bogus=bogus caption=" This is the gallery caption	">
+File:Test Image.jpg|caption 1
+File:Test Image.jpg|caption 2
+File:Test Image.jpg|caption 3
+File:Test Image.jpg|caption 4
+File:Test Image.jpg|caption 5
+File:Test Image.jpg|caption 6
+</gallery>

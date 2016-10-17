@@ -1,0 +1,7 @@
+<!--
+HTML for interwiki links that open in a new browser window.  The arguments are:
+  0 = Link title attribute.  Must be properly HTML-escaped.
+  1 = Link URL.
+  2 = Link text.  Must be properly HTML-escaped.
+-->
+<a class="{0}" rel="nofollow" href="{1}" target="_blank">{2}</a>

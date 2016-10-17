@@ -1,0 +1,1 @@
+[main] ERROR org.jamwiki.parser.LinkUtil - getRedirectTarget() called for non-redirect topic en:Test

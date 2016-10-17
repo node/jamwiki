@@ -1,0 +1,10 @@
+<!-- test special cases of subst: -->
+1: {{<includeonly>subst:</includeonly>PAGENAME}}
+
+2: {{subst:Template:Test Template}}
+
+3: {{subst:Test Template}}
+
+4: {{subst:Non-existent Topic}}
+
+5: {{subst:Example2}}

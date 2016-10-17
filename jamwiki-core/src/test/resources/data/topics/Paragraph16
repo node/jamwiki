@@ -1,0 +1,10 @@
+<!-- test paragraph parsing with attributes -->
+<p align="center" style="margin: 10px">test</p>
+
+<p onclick="alert('Hello')" align="center" style="margin: 10px">test</p>
+
+<p onclick="alert('Hello')" align="center" foo=bar style="margin: 10px">test</p>
+
+<p onclick="alert('Hello')" align=center foo=bar style="margin: 10px">test</p>
+
+<p onclick="alert('Hello')" align=center foo=bar style=margin: 10px>test</p>

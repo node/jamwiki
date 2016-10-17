@@ -1,0 +1,9 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| style="background:yellow; color:green"
+|- 
+| abc || def || ghi
+|- style="background:red; color:white"
+| jkl || mno || pqr
+|-
+| stu || style="background:silver" | vwx || yz
+|}

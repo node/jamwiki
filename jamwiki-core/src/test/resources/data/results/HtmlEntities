@@ -1,0 +1,19 @@
+<p>text that does not contain any XHTML entities or characters requiring escaping:</p>
+<p>a</p>
+<p>a b c 1 2 3</p>
+<p>XHTML entities requiring escaping</p>
+<p>&amp;</p>
+<p>&amp; &quot;</p>
+<p>valid XHTML entities (no escaping required)</p>
+<p>&#39;</p>
+<p>&lt;</p>
+<p>mixture of escaped and unescaped XHTML entities</p>
+<p>&lt; &gt; &gt;</p>
+<p>invalid XHTML entity (escaping required)</p>
+<p>&amp;bogus;</p>
+<p>hex HTML entity (upper-cased)</p>
+<p>&#x26;</p>
+<p>&#xfffff;</p>
+<p>&amp;#xffffff;</p>
+<p>valid XHTML entity (mixed case)</p>
+<p>&amp;</p>

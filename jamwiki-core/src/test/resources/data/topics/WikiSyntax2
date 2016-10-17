@@ -1,0 +1,10 @@
+<!-- test combinations of bold and italic -->
+this is '''''bold italic text'''''
+
+this is '''''bold''' and italic'' text
+
+this is '''''italic'' and bold''' text
+
+this is '''bold''''' followed by italic'' text
+
+this is ''italic''''' followed by bold''' text

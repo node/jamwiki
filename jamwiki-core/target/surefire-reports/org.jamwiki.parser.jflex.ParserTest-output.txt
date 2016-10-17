@@ -1,0 +1,374 @@
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiCategory (0.014 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateIncludeCategory (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateCategory1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateCategory2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for InterWiki1 (0.007 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiLink1 (0.037 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for VirtualWiki1 (0.005 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for CharacterUtf8 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for DefinitionList1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for DefinitionList2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for DefinitionList3 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for DefinitionList4 (0.006 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Gallery1 (0.108 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading10 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading2 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading3 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading4 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading5 (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading6 (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading7 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Heading8 (0.007 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlBasicLinks1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlBasicLinks2 (0.006 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlCommentTest1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlCommentTest2 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlDivTags (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlEntities (0.004 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlInvalidLinks1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlList1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlList2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlMailtoLinks1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlMismatchTest1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlMismatchTest2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlMismatchTest4 (0.0 s.)
+[main] WARN org.jamwiki.parser.jflex.AbstractJAMWikiLexer - popTag called on an empty tag stack or on the root stack element.  Please report this error on jamwiki.org, and provide the wiki syntax for the topic being parsed.
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlMismatchTest5 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlNoAttributes1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlTags1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlTags2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlWithAttributes1 (0.008 s.)
+[main] WARN org.jamwiki.parser.jflex.AbstractJAMWikiLexer - popTag called on an empty tag stack or on the root stack element.  Please report this error on jamwiki.org, and provide the wiki syntax for the topic being parsed.
+[main] WARN org.jamwiki.parser.jflex.JavascriptTag - Potential XSS attack detected from user 0.0.0.0: <script>alert("XSS")</script>
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlXSS1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for HtmlXSSLinks1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ImageLink1 (0.122 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ImageShared1 (0.012 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for InclusionTest1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for InterWiki1 (0.004 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Javascript (0.01 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Magic Words1 (0.006 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Magic Words2 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for MixedList1 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for MixedList2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for NestedTable1 (0.004 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for NestedTable2 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Noinclude (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for NoParseDirective (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Onlyinclude (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for OrderedList1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for OrderedList2 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph1 (0.005 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph10 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph11 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph12 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph13 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph14 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph15 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph16 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph2 (0.007 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph3 (0.004 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph4 (0.009 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph5 (0.01 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph6 (0.01 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph7 (0.008 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph8 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Paragraph9 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctions1 (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctions2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctions3 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexLexer - Unable to parse {{#invalid:test}}
+java.lang.NullPointerException
+	at org.jamwiki.parser.jflex.TemplateTag.processNestedTemplates(TemplateTag.java:353)
+	at org.jamwiki.parser.jflex.TemplateTag.parseTemplateOutput(TemplateTag.java:127)
+	at org.jamwiki.parser.jflex.TemplateTag.parse(TemplateTag.java:87)
+	at org.jamwiki.parser.jflex.JFlexLexer.parse(JFlexLexer.java:245)
+	at org.jamwiki.parser.jflex.JAMWikiTemplateLexer.yylex(JAMWikiTemplateLexer.java:706)
+	at org.jamwiki.parser.jflex.JFlexLexer.lex(JFlexLexer.java:171)
+	at org.jamwiki.parser.jflex.JFlexParser.lex(JFlexParser.java:84)
+	at org.jamwiki.parser.jflex.JFlexParser.parseTemplate(JFlexParser.java:263)
+	at org.jamwiki.parser.jflex.JFlexParser.parseHTML(JFlexParser.java:179)
+	at org.jamwiki.parser.ParserUtil.parse(ParserUtil.java:51)
+	at org.jamwiki.parser.jflex.ParserTestUtils.parserResult(ParserTestUtils.java:110)
+	at org.jamwiki.parser.jflex.ParserTestUtils.executeParserTest(ParserTestUtils.java:55)
+	at org.jamwiki.parser.jflex.ParserTestUtils.parseAllResults(ParserTestUtils.java:89)
+	at org.jamwiki.parser.jflex.ParserTest.testParserNoJavascript(ParserTest.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:115)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctions4 (0.004 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctions5 (0.008 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctionsExpr (0.035 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctionsIf (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctionsIfeq (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctionsIfexist (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for ParserFunctionsSwitch (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Preformatted1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Preformatted2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Preformatted3 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Preformatted4 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Preformatted5 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Preformatted6 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for PreformattedInvalid2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Redirect1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Redirect2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Redirect3 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Redirect4 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Redirect5 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for References1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Statbox (0.01 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Subst (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table10 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table11 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table12 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table13 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table14 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table15 (0.005 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table16 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table17 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table18 (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table19 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table2 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table20 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table21 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table22 (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table23 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table3 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table4 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table5 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table6 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table7 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table8 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Table9 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TableOfContents1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TableOfContents2 (0.006 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TableOfContents3 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TableOfContents4 (0.01 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TableOfContents5 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TableOfContents6 (0.004 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TableOfContents7 (0.005 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template2 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template3 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template4 (0.007 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template5 (0.012 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateCategory1 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateCategory2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateDepth (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateIncludeBracket (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateIncludeCategory (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateIncludePipe (0.002 s.)
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:TemplateInfinite2
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateInfinite2 (0.037 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateNumberedParams (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for TemplateParam1 (0.001 s.)
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Template:Infinite
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template:Infinite (0.021 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template:Magic Words1 (0.003 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template:Onlyinclude (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Template:Subpage (0.001 s.)
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] WARN org.jamwiki.parser.jflex.TemplateTag - Excessive template nesting in topic en:Transclusion1
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Transclusion1 (0.226 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for UnbalancedTag2 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for UnorderedList1 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for UnorderedList2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for UnorderedList3 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for UnorderedList4 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for VirtualWiki1 (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiCategory (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiLineBreak (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiLink1 (0.02 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiList1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiSyntax1 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for WikiSyntax2 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Javascript (0.002 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Redirect4 (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Category:Redirected (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Redirect5 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Subst2 (0.0 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Magic Words Display Title (0.001 s.)
+[main] INFO org.jamwiki.parser.jflex.JFlexParser - Parse time (parseHTML) for Magic Words Display Title (0.0 s.)

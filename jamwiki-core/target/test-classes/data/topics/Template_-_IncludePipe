@@ -1,0 +1,8 @@
+<!-- test includeonly oddities -->
+{{#switch: {{FULLPAGENAME}}
+| TemplateIncludePipe =
+{{{pipe}}
+{{pipe}}-
+{{pipe}} align=center {{pipe}} test
+{{pipe}}}
+}}

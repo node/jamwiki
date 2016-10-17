@@ -1,0 +1,14 @@
+<!--
+test nested definition lists
+Note that Mediawiki closes "dl" tags more frequently than JAMWiki, so there is a slight
+difference in the parsers.  Mediawiki sometimes yields output such as "</dl><dl>",
+while JAMWiki simply continues the existing list.
+-->
+;1
+::2.1
+;;2.2
+;2
+::3
+:;4
+;;;5
+;;:6

@@ -1,0 +1,7 @@
+<!--
+HTML for the "edit" links that appear in section headings.  The
+arguments are:
+  0 = Edit URL for the section.
+  1 = Translated text for the "edit" label.
+-->
+<span class="editsection">[<a href="{0}">{1}</a>]</span>

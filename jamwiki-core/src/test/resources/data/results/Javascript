@@ -1,0 +1,8 @@
+<p>&lt;script type=&quot;text/javascript&quot;&gt;alert(&quot;Hello!&quot;);&lt;/script&gt;</p>
+<p>&lt; script  type=&quot;text/javascript&quot;  &gt; alert(&quot;Hello!&quot;); &lt;  / script  &gt;</p>
+<p>&lt;script type=&quot;text/javascript&quot; foo='bar'&gt;alert(&quot;Hello!&quot;);&lt;/script&gt;</p>
+<p>&lt;script type=&quot;text/javascript&quot; style=&quot;invalid&quot;&gt;alert(&quot;Hello!&quot;);&lt;/script&gt;</p>
+<div>test</div>
+<div>test</div>
+<div style="margin: 10px; text-align: left">test</div>
+<div class="test" style="margin: 10px; text-align: left">test</div>

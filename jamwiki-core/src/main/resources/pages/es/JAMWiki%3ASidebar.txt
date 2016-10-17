@@ -1,0 +1,11 @@
+* [[StartingPoints|Puntos de Partida]]
+* [[Special:RecentChanges|Cambios Recientes]]
+* [[Special:Search|Buscar]]
+----
+* [[Special:AllPages|Todas las Páginas]]
+* [[Special:SpecialPages|Páginas Especiales]]
+* [[Special:Upload|Subir Archivo]]
+----
+* [http://jamwiki.org/ JAMWiki]
+* [http://sourceforge.net/projects/jamwiki/ Página de Sourceforge]
+* [http://mediawiki.org/ MediaWiki]

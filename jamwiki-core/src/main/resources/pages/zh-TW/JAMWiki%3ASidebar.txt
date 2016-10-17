@@ -1,0 +1,11 @@
+* [[StartingPoints|出發點]]
+* [[Special:RecentChanges|最近變更]]
+* [[Special:Search|搜尋]]
+----
+* [[Special:AllPages|所有主題]]
+* [[Special:SpecialPages|特殊頁面]]
+* [[Special:Upload|檔案上傳]]
+----
+* [http://jamwiki.org/ JAMWiki]
+* [http://sourceforge.net/projects/jamwiki/ SourceForge 專案]
+* [http://mediawiki.org/ MediaWiki]

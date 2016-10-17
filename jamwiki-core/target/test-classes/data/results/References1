@@ -1,0 +1,12 @@
+<dl>
+<dd>First <sup id="cite_ref-First_0" class="reference"><a href="#cite_note-First">[1]</a></sup>.</dd>
+<dd>Second <sup id="cite_ref-First_1" class="reference"><a href="#cite_note-First">[1]</a></sup>.</dd>
+<dd>Third <sup id="cite_ref-First_2" class="reference"><a href="#cite_note-First">[1]</a></sup>.</dd>
+<dd>Fourth <sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>.</dd>
+</dl>
+<p>Paragraph</p>
+<ol class="references">
+<li id="cite_note-First"><sup><a href="#cite_ref-First_0">1.0</a>&#160;&#160;<a href="#cite_ref-First_1">1.1</a>&#160;&#160;<a href="#cite_ref-First_2">1.2</a>&#160;</sup>First Reference</li>
+<li id="cite_note-2"><sup><a href="#cite_ref-2">2</a>&#160;</sup>Fourth Reference</li>
+</ol>
+<p>Paragraph</p>

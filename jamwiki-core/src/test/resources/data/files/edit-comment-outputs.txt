@@ -1,0 +1,21 @@
+# this is a data file used with org.jamwiki.parser.jflex.ParserTest.testParseEditComment()
+test
+
+test
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> test
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> test */
+/* <span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> test
+/* <span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> test */
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> link to <a href="/wiki/en/Example2" title="Example2">Example2</a>
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> link to <a href="/wiki/en/Example2" title="Example2">Test</a>
+<a href="/wiki/en/Example2" title="Example2">Example2</a> <span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span>
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> {{PAGENAME}}
+<span class="section-link"><a href="/wiki/en/Example1#a_.7B.7BPAGENAME.7D.7D" title="Example1">&rarr;</a>{{PAGENAME}}</span>
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> link to <a href="/wiki/en/File:Test_Image.jpg" title="File:Test Image.jpg">File:Test Image.jpg</a>
+<span class="section-link"><a href="/wiki/en/Example1#a_.5B.5BExample2.5D.5D" title="Example1">&rarr;</a><a href="/wiki/en/Example2" title="Example2">Example2</a></span>
+<span class="section-link"><a href="/wiki/en/Example1#a_.5B.5BExample2.7CTest.5D.5D" title="Example1">&rarr;</a><a href="/wiki/en/Example2" title="Example2">Test</a></span>
+<span class="section-link"><a href="/wiki/en/Example1#Section_1" title="Example1">&rarr;</a>Section 1</span> <span class="section-link"><a href="/wiki/en/Example1#Section_2" title="Example1">&rarr;</a>Section 2</span>
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> link to <a href="/wiki/test/Example2" title="Example2">Example2</a>
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> link to <a href="/wiki/test/Example2" title="Example2">Example2</a>
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> link to <a class="interwiki" title="wikipedia:Main Page" href="http://en.wikipedia.org/wiki/Main_Page">wikipedia:Main Page</a>
+<span class="section-link"><a href="/wiki/en/Example1#Section" title="Example1">&rarr;</a>Section</span> link to <a class="interwiki" title="wikipedia:Main Page" href="http://en.wikipedia.org/wiki/Main_Page">wikipedia:Main Page</a>

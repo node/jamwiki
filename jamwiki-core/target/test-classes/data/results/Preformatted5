@@ -1,0 +1,6 @@
+<pre>
+test  <span style="color:blue"><i>pagename</i></span>
+</pre>
+<pre>
+ test  &lt;span style=&quot;color:blue&quot;&gt;''pagename''&lt;/span&gt;
+</pre>

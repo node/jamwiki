@@ -1,0 +1,34 @@
+<table border="1" cellpadding="5" cellspacing="0" align="center">
+<caption><b>An example table</b></caption>
+<tr>
+<th style="background:#efefef;">First header</th>
+<th colspan="2" style="background:#ffdead;">Second header</th>
+</tr>
+<tr>
+<td>upper left</td>
+<td>&#160;</td>
+<td rowspan="2" style="border-bottom:3px solid grey;" valign="top">
+<p>right side</p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:3px solid grey;">lower left</td>
+<td style="border-bottom:3px solid grey;">lower middle</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<table border="0">
+<caption><i>A table in a table</i></caption>
+<tr>
+<td align="center" width="150px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></td>
+<td align="center" width="150px"><a class="wikiimg" href="/wiki/en/File:Test_Image.jpg"><img class="wikiimg" src="/files/test_image.jpg" width="400" height="267" alt="Test Image.jpg" /></a></td>
+</tr>
+<tr>
+<td align="center" colspan="2" style="border-top:1px solid red; border-right:1px solid red; border-bottom:2px solid red; border-left:1px solid red;">
+<p>Two Wikimedia logos</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

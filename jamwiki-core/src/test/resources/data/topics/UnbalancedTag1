@@ -1,0 +1,10 @@
+<!-- test unbalanced tag handling -->
+hello '''i say ''to''' the'' world
+
+hello <i>to</b> the</i> world
+
+hello <i><i>world!</i></i>
+
+hello <i><b>to the</i></b> world
+
+hello <i>world

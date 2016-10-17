@@ -1,0 +1,5 @@
+<!--
+HTML wrapper for a plain (unformatted) image.  The arguments are:
+  0 = Image HTML.
+-->
+{0}

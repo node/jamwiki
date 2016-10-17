@@ -1,0 +1,2 @@
+<!-- verify that several corner cases will be processed correctly -->
+<tt><tt>test</tt></tt>

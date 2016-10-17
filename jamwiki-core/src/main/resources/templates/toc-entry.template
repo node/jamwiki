@@ -1,0 +1,8 @@
+<!--
+HTML for a single line entry in the table of contents.  The
+arguments are:
+  0 = ID that the TOC entry should link to.
+  1 = The numbered heading to display next to the entry.
+  2 = The label text for the TOC entry.
+-->
+<a href="#{0}"><span class="tocnumber">{1}</span> <span class="toctext">{2}</span></a>

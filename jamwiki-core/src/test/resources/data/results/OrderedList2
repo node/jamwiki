@@ -1,0 +1,45 @@
+<ol>
+<li>1</li>
+<li>2
+<ol>
+<li>2.1</li>
+<li>2.2
+<ol>
+<li>2.2.1</li>
+<li>2.2.2</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>3</li>
+</ol>
+<p>break</p>
+<ol>
+<li>list item A1
+<ol>
+<li>list item B1</li>
+<li>list item B2</li>
+</ol>
+<dl>
+<dd>continuing list item A1</dd>
+</dl>
+</li>
+<li>list item A2</li>
+</ol>
+<p>break</p>
+<ol>
+<li>list item A1
+<ol>
+<li>list item B1
+<ol>
+<li>list item C1</li>
+</ol>
+<dl>
+<dd>continuing list item B1</dd>
+</dl>
+</li>
+<li>list item B2</li>
+</ol>
+</li>
+<li>list item A2</li>
+</ol>

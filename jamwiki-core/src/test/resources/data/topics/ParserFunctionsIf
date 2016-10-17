@@ -1,0 +1,48 @@
+<!-- test usage and rendering of the #if: parser function -->
+1: {{#if: test | true | false}}
+
+2: {{#if: | true | false}}
+
+3: {{#if: test | true}}
+
+4: {{#if: }}
+
+5: {{#if: test | true | false | other}}
+
+6: {{#if:
+| true
+| false
+}}
+
+7: {{#if: test
+| true
+| false
+}}
+
+8: {{#if:
+
+| true
+| false
+}}
+
+9: {{#if:
+test
+| true
+| false
+}}
+
+10: {{#if: {{#if: | true2 | false2}} | true | false }}
+
+11: {{#if: {{#if: test2 | true2 | false2}} | true | false }}
+
+12: {{#if: {{#if: | true2}} | true | false }}
+
+13: {{#if: test | {{#if: | true2 | false2}} }}
+
+14: {{#if: test | {{#if: test2 | true2 | false2}} }}
+
+15: {{#if: | '''bold''' | ''italic'' }}
+
+16: {{#if: test | '''bold''' | ''italic'' }}
+
+17: {{#if: [[Template:If|Pipe Test]] | true | false }}

@@ -1,0 +1,108 @@
+
+CREDITS
+=======
+
+
+JAMWiki Contributors
+====================
+
+  Developers:               Ryan Holliday (wrh2)
+                            Charles Clavadetscher (cclavadetscher)
+                            Scott Croco (scroco)
+                            Régis Décamps (RegisDecamps)
+                            Daniel Fisla (dfisla)
+                            Michael Greifeneder (mikegr)
+                            Dallas Hopewell (dallas)
+                            Andrei Khokhlov (avhohlov2)
+                            Hanspeter Klapf (hanspeterklapf)
+                            Axel Kramer (axelclk)
+                            Robert Matyja (dlpa)
+                            Michael Osipov (mosipov)
+                            Peter Palmreuther (pitpalme)
+                            Dan Prekker (dprekker)
+                            Rainer Schmitz (swift)
+                            Phil Trimble (PhilTrimble)
+                            Volodymyr Vlad (gutsul)
+  Translations:
+     Chinese (simplified):  Jiading (ewen0930)
+                            Feilong Huang (hfl)
+     Chinese (traditional): Jiading (ewen0930)
+                            Pei-Tang Huang (tang)
+     Croatian:              Marija Susovic
+     Czech:                 Pavel Vrecion (vrecion)
+     Danish:                Anders Monrad (g9adm)
+     Dutch:                 Tarik Menbhi & Wim Borghs (Angel)
+     French:                Henri Gomez (hgomez)
+                            Guillaume FRANCOIS 55
+     Galician:              Manuel Meixide - bagonix.net (mmeixide)
+     German:                Charles Clavadetscher (cclavadetscher)
+                            Axel Kramer (axelclk)
+                            Peter Palmreuther (pitpalme)
+                            Frank Reifenstahl (frareinif)
+                            Rainer Schmitz (swift)
+                            Samuel (justme)
+     Hungarian:             Csaba Tenkes (cstenkes)
+                            Daniel Tar (bDaneE)
+     Italian:               Charles Clavadetscher (cclavadetscher)
+     Japanese:              Natto Lover (nattolover)
+                            jfujikawa
+     Polish:                Robert Matyja (dlpa)
+     Portugese:             Manuel Meixide - bagonix.net (mmeixide)
+     Portugese (Brazilian): Fernando Fernandes (leandes)
+                            leokury
+     Russian:               Andrej Sharapov (shar)
+     Sinhala:               Ruchira Bandara (ruchira56)
+     Slovak:                Matus Majchrak (aryan)
+     Spanish:               Angel Luis Pinazo Perpiñán (AngelPinazo)
+                            Manuel Meixide - bagonix.net (mmeixide)
+     Swedish:               Martin Östmark (martin)
+     Ukranian:              Volodymyr Vlad (gutsul)
+  Other Contributors:       AleXey "lexis" Rumyantsev (lexis@mail.ru)
+                            Luzius Thöny (luzi)
+                            Oliver (okohll)
+                            Carsten Seiffert (carsten)
+
+
+Very Quick Wiki Contributors
+============================
+
+JAMWiki was originally created as a fork of the Very Quick Wiki project
+(http://vqwiki.org/).  Individuals who contributed to that project include:
+
+  Project Lead:             Martijn van der Kleijn (mvdkleijn)
+  Developers:               Martijn van der Kleijn (mvdkleijn)
+                            Andreas Studer (studer)
+                            Colin Jacobs (coljac)
+                            Tobias Schulz-Hess (mrgadget4711)
+                            Fritz Freiheit (fritz_freiheit)
+                            Gareth Cronin (garethc)
+                            HongLiang Bi (redragon4679)
+                            Ryan Holliday (wrh2)
+  Documentation:            Tim Howland (thowland)
+  Translations:
+     Italian:               Marcello Teodori (teodori)
+     Spanish:               Zapo (erzapo)
+     German:                Nico Jabin (nicojabin)
+     Swedish:               Johan Lindell (lindelj)
+     Norwegian:             Erik (xan-)
+     Serbian:               Sasha Kotlo (kotlo_sasha)
+     Polish:                Michael (mindweb)
+     Dutch:                 Martijn van der Kleijn (mvdkleijn)
+     English:               Martijn van der Kleijn (mvdkleijn)
+  Non-project contributors: Fabrizio Zellini, Fritz Kunstler, Steve Pugh
+
+
+Non-Project Content
+===================
+
+The following files are included in JAMWiki but come from other projects and
+are released under free licenses:
+
+  * Edit toolbar buttons & CSS fom http://ckeditor.com (LGPL)
+  * Edit toolbar buttons from http://commons.wikimedia.org/wiki/MediaWiki_edit_toolbar
+    by Erasoft24, Olliminatore, and Rocket000 (GFDL 1.2+ / CC-SA 3.0)
+  * /images/bullet.gif from http://commons.wikimedia.org/wiki/File:Bullet.gif
+    by AB-me and Brian0918 (GFDL 1.2+ / CC-SA 3.0)
+  * The de.congrace.expd4j math expression parser library is releated under the
+    Apaache license by Frank Asseg (http://http://objecthunter.congrace.de/).
+

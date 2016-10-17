@@ -1,0 +1,26 @@
+<!-- test usage and rendering of the #ifeq: parser function -->
+1: {{#ifeq: 01 | 1 | yes | no}}
+
+2: {{#ifeq: 0 | -0 | yes | no}}
+
+3: {{#ifeq: 0.0 | -0.00 | yes | no}}
+
+4: {{#ifeq: 0.001 | -0.00 | yes | no}}
+
+5: {{#ifeq: foo | bar | yes | no}}
+
+6: {{#ifeq: foo | Foo | yes | no}}
+
+7: {{#ifeq: "01" | "1" | yes | no}}
+
+8: {{#ifeq: foo | foo | yes | no}}
+
+9: {{#ifeq: 01 | 1 | yes | no | test}}
+
+10: {{#ifeq: 01 | 1 | yes}}
+
+11: {{#ifeq: 01 | 2 | yes}}
+
+12: {{#ifeq: 01 | 1}}
+
+13: {{#ifeq: 01}}

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ruleset name="JAMWiki ruleset" xmlns="http://pmd.sf.net/ruleset/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd"
+	xsi:noNamespaceSchemaLocation="http://pmd.sf.net/ruleset_xml_schema.xsd">
+	<description>
+		The ruleset for Jamwiki is pretty complete.
+	</description>
+	<rule ref="/rulesets/basic.xml" />
+	<!-- JSP validation seems to cause problems so disable -->
+	<!-- <rule ref="/rulesets/basic-jsp.xml" /> -->
+	<rule ref="/rulesets/braces.xml" />
+	<rule ref="/rulesets/clone.xml" />
+	<rule ref="/rulesets/codesize.xml" />
+	<rule ref="/rulesets/controversial.xml">
+		<!-- Dataflow generates too many Found 'DU'-anomaly -->
+		<exclude name="DataflowAnomalyAnalysis" />
+		<!-- i disagree - multiple exit points make sense to avoid nesting too deeply. -->
+		<exclude name="OnlyOneReturn" />
+		<!--
+		Fields in interfaces are automatically public static final, and methods are public
+		abstract.  Generating a warning because these modifiers are superfluousis really controversial.
+		-->
+		<exclude name="UnusedModifier" />
+	</rule>
+	<rule ref="/rulesets/coupling.xml" />
+	<rule ref="/rulesets/design.xml">
+		<!-- "if (x != y) ... else ..." isn't worth warning about -->
+		<exclude name="ConfusingTernary" />
+		<!-- putting literals first is good for avoiding nulls, but it's better to first validate against nulls -->
+		<exclude name="PositionLiteralsFirstInComparisons" />
+		<!-- re-visit this issue later, but for now a Locale seems like overkill -->
+		<exclude name="SimpleDateFormatNeedsLocale" />
+		<!-- not having a default on a switch statement is not worth generating warnings -->
+		<exclude name="SwitchStmtsShouldHaveDefault" />
+		<!-- for now assume that toUpperCase and toLowerCase uses are fine.  this can be re-visited later. -->
+		<exclude name="UseLocaleWithCaseConversions" />
+	</rule>
+	<rule ref="/rulesets/finalizers.xml" />
+	<rule ref="/rulesets/imports.xml" />
+	<rule ref="/rulesets/j2ee.xml" />
+	<rule ref="/rulesets/javabeans.xml" />
+	<rule ref="/rulesets/junit.xml" />
+	<rule ref="/rulesets/logging-java.xml" />
+	<rule ref="/rulesets/migrating_to_15.xml" />
+	<rule ref="/rulesets/migrating_to_junit4.xml" />
+	<!-- PMD warns excessively about long constant names and short temp variable names so disable -->
+	<!-- <rule ref="/rulesets/naming.xml" /> -->
+	<rule ref="/rulesets/optimizations.xml">
+		<!-- declaring local variables final is a bit of overkill... -->
+		<exclude name="LocalVariableCouldBeFinal" />
+		<exclude name="MethodArgumentCouldBeFinal" />
+	</rule>
+	<rule ref="/rulesets/strings.xml">
+		<!-- revisit string literals later, but for now it's overkill to avoid duplicate strings -->
+		<exclude name="AvoidDuplicateLiterals" />
+	</rule>
+	<rule ref="/rulesets/strictexception.xml" />
+	<rule ref="/rulesets/sunsecure.xml" />
+	<rule ref="/rulesets/unusedcode.xml" />
+</ruleset>

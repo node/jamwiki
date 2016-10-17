@@ -1,0 +1,5 @@
+<!-- verify div attributes are correctly processed -->
+<div style="color: red; font-weight: bold" id="div1">test</div>
+<div style="background-url(javascript(alert('xss')))" id="div2">test</div>
+<div foo="bar" id="div3">test</div>
+<div align = center>test</div>

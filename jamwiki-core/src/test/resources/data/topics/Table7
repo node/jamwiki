@@ -1,0 +1,10 @@
+<!-- test basic wiki table formatting.  example taken from http://meta.wikimedia.org/wiki/Help:Tables. -->
+{| border="1" cellpadding="2"
+!width="50"|Name
+!width="225"|Effect
+!width="225"|Games Found In
+|-
+|Poke Ball || Regular Poke Ball || All Versions
+|-
+|Great Ball || Better than a Poke Ball || All Versions
+|}

@@ -1,0 +1,18 @@
+<!-- test an odd header breakage -->
+==A==
+* aa-aa
+* <div>
+{|border=1
+!A!!B
+|}
+</div>
+
+==B==
+* bb-bb
+* <div>
+{|border=1
+!A!!B
+|}
+</div>
+*
+==C==

@@ -1,0 +1,7 @@
+<!--
+HTML wrapper for a center-aligned image.  The arguments are:
+  0 = Image HTML.
+-->
+<div class="center">
+<div class="floatnone">{0}</div>
+</div>

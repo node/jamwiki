@@ -1,0 +1,2 @@
+<!-- verify that a link cannot use an XSS attack via HTML in link URL -->
+[http://jamwiki.org/wiki/en/Special:Print?topic=Bug_Reports</title><script>alert('Ownage');</script> XSS4]

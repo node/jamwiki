@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="jamwiki-configuration-1.3.xsd">
+
+<!--
+   ====================================================================
+
+   Parsers that can be used with JAMWiki:
+
+   name  - A human-readable name for the parser.
+   class - The fully qualified class name for the parser class.
+   key   - The ApplicationResources translation key for the parser name.  If
+           this value is not specified then the "name" value is used when
+           displaying the parser name.
+   state - An optional parameter that can be set to "experimental" to warn
+           site administrators that a parser is a work-in-progress.
+
+   ======================================================================
+-->
+<parsers>
+	<parser>
+		<name>JAMWiki Default</name>
+		<class>org.jamwiki.parser.jflex.JFlexParser</class>
+		<key>admin.parsertype.default</key>
+	</parser>
+	<parser>
+		<name>Bliki hand-written Parser</name>
+		<class>org.jamwiki.parser.bliki.BlikiParser</class>
+		<key>admin.parsertype.bliki</key>
+	</parser>
+</parsers>
+
+<!--
+   ====================================================================
+
+   EXPERIMENTAL: Custom tags that can be used with the JFlex parser.
+   See org.jamwiki.parser.jflex.JFlexCustomTagItem for the interface
+   but be aware that this capability may change in future releases
+   so any implementation will likely need to be re-compiled until the
+   API stabilizes.
+
+   class - The fully qualified class name for the custom tag class.
+   key   - (Optional) The tag name.  If the tag is "<custom>" then the
+           tag name is "custom".  If not specified then the default
+           value specified in the tag class will be used.
+
+   ======================================================================
+-->
+<jflex-parser-custom-tags>
+	<custom-tag>
+		<class>org.jamwiki.parser.jflex.GalleryTag</class>
+		<key>gallery</key>
+	</custom-tag>
+	<custom-tag>
+		<class>org.jamwiki.parser.jflex.addon.FacebookTag</class>
+	</custom-tag>
+	<custom-tag>
+		<class>org.jamwiki.parser.jflex.addon.TwitterTag</class>
+	</custom-tag>
+	<custom-tag>
+		<class>org.jamwiki.parser.jflex.addon.IFrameTag</class>
+	</custom-tag>
+</jflex-parser-custom-tags>
+
+<!--
+   ====================================================================
+
+   Data handlers that can be used with JAMWiki:
+
+   name  - A human-readable name for the data handler.
+   class - The fully qualified class name for the data handler.
+   key   - The ApplicationResources translation key for the data handler
+           name.  If this value is not specified then the "name" value is
+           used when displaying the data handler name.
+   state - An optional parameter that can be set to "experimental" to warn
+           site administrators that a data handler is a work-in-progress.
+
+   ======================================================================
+-->
+<query-handlers>
+	<query-handler>
+		<name>ansi</name>
+		<class>org.jamwiki.db.AnsiQueryHandler</class>
+	</query-handler>
+	<query-handler>
+		<name>h2</name>
+		<class>org.jamwiki.db.H2QueryHandler</class>
+	</query-handler>
+	<query-handler>
+		<name>hsql</name>
+		<class>org.jamwiki.db.HSqlQueryHandler</class>
+	</query-handler>
+	<query-handler>
+		<name>mssql</name>
+		<class>org.jamwiki.db.MSSqlQueryHandler</class>
+	</query-handler>
+	<query-handler>
+		<name>mysql</name>
+		<class>org.jamwiki.db.MySqlQueryHandler</class>
+	</query-handler>
+	<query-handler>
+		<name>oracle</name>
+		<class>org.jamwiki.db.OracleQueryHandler</class>
+	</query-handler>
+	<query-handler>
+		<name>postgres</name>
+		<class>org.jamwiki.db.PostgresQueryHandler</class>
+	</query-handler>
+	<query-handler>
+		<name>asa</name>
+		<class>org.jamwiki.db.SybaseASAQueryHandler</class>
+		<state>experimental</state>
+	</query-handler>
+	<query-handler>
+		<name>db2</name>
+		<class>org.jamwiki.db.DB2QueryHandler</class>
+		<state>experimental</state>
+	</query-handler>
+	<query-handler>
+		<name>db2/400</name>
+		<class>org.jamwiki.db.DB2400QueryHandler</class>
+		<state>experimental</state>
+	</query-handler>
+	<query-handler>
+		<name>Cache</name>
+		<class>org.jamwiki.db.CacheQueryHandler</class>
+		<state>experimental</state>
+	</query-handler>
+</query-handlers>
+
+<!--
+   ====================================================================
+
+   Editors are used when editing topics and define which of the available
+   editing tools the user will use.
+
+   name  - The name of the editing tool.
+   key   - A string that will be stored in the user preferences if the
+           editing tool is selected.
+
+   ======================================================================
+-->
+<editors>
+	<editor>
+		<name>None</name>
+		<key>none</key>
+	</editor>
+	<editor>
+		<name>Toolbar</name>
+		<key>toolbar</key>
+	</editor>
+</editors>
+
+<!--
+   ====================================================================
+
+   Search engines that can be used with JAMWiki:
+
+   name  - A human-readable name for the search engine.
+   class - The fully qualified class name for the search engine class.
+   key   - The ApplicationResources translation key for the search engine
+           name.  If this value is not specified then the "name"
+           value is used when displaying the authentication mechanism name.
+   state - An optional parameter that can be set to "experimental" to warn
+           site administrators that a search engine is a work-in-progress.
+
+   ======================================================================
+-->
+<search-engines>
+	<search-engine>
+		<name>Lucene</name>
+		<class>org.jamwiki.search.LuceneSearchEngine</class>
+		<key>admin.searchengine.lucene</key>
+		<key2>search.logo.lucene</key2>
+	</search-engine>
+	<search-engine>
+		<name>RankingAlgorithm</name>
+		<class>org.jamwiki.search.RankingAlgorithmSearchEngine</class>
+		<key>admin.searchengine.rankingalgorithm</key>
+		<key2>search.logo.rankingalgorithm</key2>
+		<state>experimental</state>
+	</search-engine>
+</search-engines>
+
+<!--
+   ====================================================================
+
+   Languages and locales for which JAMWiki provides translations.  This
+   list is needed only for cases where a locale is not by default
+   supported by the JDK (example: Galician) and provides a way to ensure
+   that all languages and locales for which localization is available
+   are included on the Special:Register page.
+
+   name  - The localized name for the language/locale that is displayed
+           to end users.
+   key   - The ISO language code for the language/locale.
+
+   ======================================================================
+-->
+<translations>
+	<translation>
+		<name>en - English</name>
+		<key>en</key>
+	</translation>
+	<translation>
+		<name>da - dansk</name>
+		<key>da</key>
+	</translation>
+	<translation>
+		<name>de - Deutsch</name>
+		<key>de</key>
+	</translation>
+	<translation>
+		<name>es - español</name>
+		<key>es</key>
+	</translation>
+	<translation>
+		<name>fr - français</name>
+		<key>fr</key>
+	</translation>
+	<translation>
+		<name>gl - galego</name>
+		<key>gl</key>
+	</translation>
+	<translation>
+		<name>hr - hrvatski</name>
+		<key>hr</key>
+	</translation>
+	<translation>
+		<name>hu - magyar</name>
+		<key>hu</key>
+	</translation>
+	<translation>
+		<name>it - italiano</name>
+		<key>it</key>
+	</translation>
+	<translation>
+		<name>ja - 日本語</name>
+		<key>ja</key>
+	</translation>
+	<translation>
+		<name>nl - Nederlands</name>
+		<key>nl</key>
+	</translation>
+	<translation>
+		<name>no - norsk</name>
+		<key>no</key>
+	</translation>
+	<translation>
+		<name>pl - polski</name>
+		<key>pl</key>
+	</translation>
+	<translation>
+		<name>pt - ptportuguês</name>
+		<key>pt</key>
+	</translation>
+	<translation>
+		<name>si_LK - sinhala</name>
+		<key>si_LK</key>
+	</translation>
+	<translation>
+		<name>sv - svenska</name>
+		<key>sv</key>
+	</translation>
+	<translation>
+		<name>uk - українська</name>
+		<key>uk</key>
+	</translation>
+	<translation>
+		<name>zh_CN - 中文 (中国)</name>
+		<key>zh_CN</key>
+	</translation>
+	<translation>
+		<name>zh_TW - 中文 (台灣)</name>
+		<key>zh_TW</key>
+	</translation>
+</translations>
+
+<!--
+   ====================================================================
+
+   Date and time formats that users can select from user preferences
+   for viewing dates/times.  At least one value must be specified for
+   each type, and formats much be valid java.text.SimpleDateFormat
+   formats.  The first value specified will be the default for the
+   site until it is changed using the Special:Admin tools.
+
+   ======================================================================
+-->
+<date-formats>
+	<date-format>d MMMM yyyy</date-format>
+	<date-format>LONG</date-format>
+	<date-format>MEDIUM</date-format>
+	<date-format>yyyy-MM-dd</date-format>
+	<date-format>dd.MM.yyyy</date-format>
+</date-formats>
+<time-formats>
+	<time-format>HH:mm</time-format>
+	<time-format>h:mm a</time-format>
+</time-formats>
+
+</configuration>

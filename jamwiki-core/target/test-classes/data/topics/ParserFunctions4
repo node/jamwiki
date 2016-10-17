@@ -1,0 +1,6 @@
+<!-- test usage and rendering of invalid syntax parser functions -->
+{{localurl:Example1||}}
+
+{{localurl:}}
+
+{{#invalid:test}}

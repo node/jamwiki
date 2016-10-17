@@ -1,0 +1,23 @@
+<div style="text-align:center;font-weight:bold;color:green;font-size:150%">JAMWiki のインストールに成功しました!</div>
+
+ページの上の方にある"編集"タブをクリックすれば、どのページでも編集できます。
+このインストレーションの設定は、[[Special:Admin]]ページで変更できます。
+さらに以下のページを編集することによっても、このWikiのルックアンドフィールを変えることができます:
+
+* [[JAMWiki:Sidebar]] - すべてのページの左に表示されるメニュー。
+* [[JAMWiki:Footer]] - すべてのページの下に表示されるフッター。
+* [[JAMWiki:Header]]
+* [[JAMWiki:Custom.css]] - このサイトのCSSスタイルを保持するスタイルシート。
+
+最後にJAMWikiプロジェクトへのご協力のお願いです。インストールの成否を、ぜひ、[http://jamwiki.org/ jamwiki.org]でお知らせください。
+また、JAMWikiの改良のために、フィードバック、質問、バグレポートも [http://jamwiki.org/ jamiki.org]にお寄せください。
+[http://jamwiki.org/ jamwiki.org]には、最新のドキュメンテーションもあり、あなたのWikiをさらにカスタマイズするための情報を提供しています。
+
+その他の便利な機能:
+
+* [[Special:RecentChanges | 最近の変更]] - 最近更新されたWikiの記事。
+* [[Special:Upload | アップロード]] - Wikiにファイルや画像をアップロードするために使います。
+* [[Special:Search | 検索]] - Wikiを検索します。
+* [[Special:Account | アカウント]] - 編集に名前が正しく残るように、アカウントを作ります。
+* [[Special:AllPages | 記事一覧]] - Wikiの全記事の一覧です。
+* [[Special:SpecialPages | 特別ページ]] - Wikiの「特別」ページの一覧です。

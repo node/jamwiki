@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.003" errors="0" skipped="0" tests="4" name="org.jamwiki.parser.jflex.JFlexParserUtilTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Development\jdk\jdk1.7.0_65\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="net.sf.ehcache.sizeof.agent.instrumentation" value="null"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\work\jamwiki\jamwiki-core"/>
+    <property name="java.runtime.version" value="1.7.0_65-b19"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\work\jamwiki\jamwiki-core"/>
+    <property name="java.endorsed.dirs" value="D:\Development\jdk\jdk1.7.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="D:\work\jamwiki\jamwiki-core\target\surefire\surefirebooter972799348224379557.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\YANGZH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Development\jdk\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Python27;D:\Development\jdk\jdk1.7.0_65\bin;D:\gradle-2.11\bin;W:\apache-maven-3.2.1\bin;D:\Python27\Scripts;D:\Program Files\TortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;d:\Git\cmd;d:\Git\mingw64\bin;d:\Git\usr\bin;."/>
+    <property name="surefire.test.class.path" value="D:\work\jamwiki\jamwiki-core\target\test-classes;D:\work\jamwiki\jamwiki-core\target\classes;D:\我的文档\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\我的文档\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;D:\我的文档\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\我的文档\.m2\repository\de\congrace\exp4j\0.3.3\exp4j-0.3.3.jar;D:\我的文档\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;D:\我的文档\.m2\repository\commons-pool\commons-pool\1.6\commons-pool-1.6.jar;D:\我的文档\.m2\repository\org\hsqldb\hsqldb\2.2.9\hsqldb-2.2.9.jar;D:\我的文档\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\我的文档\.m2\repository\junit\junit\4.7\junit-4.7.jar;D:\我的文档\.m2\repository\net\sf\ehcache\ehcache-core\2.5.0\ehcache-core-2.5.0.jar;D:\我的文档\.m2\repository\org\springframework\spring-core\3.2.1.RELEASE\spring-core-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;D:\我的文档\.m2\repository\org\springframework\spring-tx\3.2.1.RELEASE\spring-tx-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\org\springframework\spring-beans\3.2.1.RELEASE\spring-beans-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\我的文档\.m2\repository\org\springframework\spring-jdbc\3.2.1.RELEASE\spring-jdbc-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\org\slf4j\slf4j-api\1.7.2\slf4j-api-1.7.2.jar;D:\我的文档\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.2\jcl-over-slf4j-1.7.2.jar;D:\我的文档\.m2\repository\org\slf4j\slf4j-simple\1.7.2\slf4j-simple-1.7.2.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="D:\我的文档"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="yangzhentao"/>
+    <property name="java.class.path" value="D:\work\jamwiki\jamwiki-core\target\test-classes;D:\work\jamwiki\jamwiki-core\target\classes;D:\我的文档\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\我的文档\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar;D:\我的文档\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\我的文档\.m2\repository\de\congrace\exp4j\0.3.3\exp4j-0.3.3.jar;D:\我的文档\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;D:\我的文档\.m2\repository\commons-pool\commons-pool\1.6\commons-pool-1.6.jar;D:\我的文档\.m2\repository\org\hsqldb\hsqldb\2.2.9\hsqldb-2.2.9.jar;D:\我的文档\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\我的文档\.m2\repository\junit\junit\4.7\junit-4.7.jar;D:\我的文档\.m2\repository\net\sf\ehcache\ehcache-core\2.5.0\ehcache-core-2.5.0.jar;D:\我的文档\.m2\repository\org\springframework\spring-core\3.2.1.RELEASE\spring-core-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;D:\我的文档\.m2\repository\org\springframework\spring-tx\3.2.1.RELEASE\spring-tx-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\org\springframework\spring-beans\3.2.1.RELEASE\spring-beans-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\我的文档\.m2\repository\org\springframework\spring-jdbc\3.2.1.RELEASE\spring-jdbc-3.2.1.RELEASE.jar;D:\我的文档\.m2\repository\org\slf4j\slf4j-api\1.7.2\slf4j-api-1.7.2.jar;D:\我的文档\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.2\jcl-over-slf4j-1.7.2.jar;D:\我的文档\.m2\repository\org\slf4j\slf4j-simple\1.7.2\slf4j-simple-1.7.2.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Development\jdk\jdk1.7.0_65\jre"/>
+    <property name="sun.java.command" value="D:\work\jamwiki\jamwiki-core\target\surefire\surefirebooter972799348224379557.jar D:\work\jamwiki\jamwiki-core\target\surefire\surefire1974255096684295061tmp D:\work\jamwiki\jamwiki-core\target\surefire\surefire900854471321684572tmp"/>
+    <property name="entityExpansionLimit" value="1000000"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_65"/>
+    <property name="java.ext.dirs" value="D:\Development\jdk\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Development\jdk\jdk1.7.0_65\jre\lib\resources.jar;D:\Development\jdk\jdk1.7.0_65\jre\lib\rt.jar;D:\Development\jdk\jdk1.7.0_65\jre\lib\sunrsasign.jar;D:\Development\jdk\jdk1.7.0_65\jre\lib\jsse.jar;D:\Development\jdk\jdk1.7.0_65\jre\lib\jce.jar;D:\Development\jdk\jdk1.7.0_65\jre\lib\charsets.jar;D:\Development\jdk\jdk1.7.0_65\jre\lib\jfr.jar;D:\Development\jdk\jdk1.7.0_65\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\我的文档\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0" classname="org.jamwiki.parser.jflex.JFlexParserUtilTest" name="testStripMarkup"/>
+  <testcase time="0.001" classname="org.jamwiki.parser.jflex.JFlexParserUtilTest" name="testIsHtmlEntity"/>
+  <testcase time="0" classname="org.jamwiki.parser.jflex.JFlexParserUtilTest" name="testFindMatchingStartTag"/>
+  <testcase time="0" classname="org.jamwiki.parser.jflex.JFlexParserUtilTest" name="testFindMatchingEndTag"/>
+</testsuite>

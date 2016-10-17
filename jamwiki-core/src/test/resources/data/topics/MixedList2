@@ -1,0 +1,33 @@
+<!--
+test mixed lists.
+some of these examples taken from http://meta.wikimedia.org/wiki/Help:Lists,
+licensed under the GFDL
+Note that Mediawiki closes "dl" tags more frequently than JAMWiki, so there is a slight
+difference in the parsers.  Mediawiki sometimes yields output such as "</dl><dl>",
+while JAMWiki simply continues the existing list.
+-->
+#1
+#*1.1
+#*1.2
+#*:1.2.1
+#*;1.2.2
+#*;*1.2.2.1
+#*;1.2.3
+#2
+
+break
+
+* Or create mixed lists
+*# and nest them
+*#* like this
+*#*; definitions
+*#*: work:
+*#*; apple
+*#*; banana
+*#*: fruits
+
+break
+
+:#abc
+:#def
+:#ghi

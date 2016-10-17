@@ -1,0 +1,21 @@
+# this is a data file used with org.jamwiki.parser.jflex.ParserTest.testParseEditComment()
+test
+/**/
+/**/ test
+/* Section */ test
+/* Section */ test */
+/* /* Section */ test
+/* /* Section */ test */
+/* Section */ link to [[Example2]]
+/* Section */ link to [[Example2|Test]]
+[[Example2]] /* Section */
+/* Section */ {{PAGENAME}}
+/* {{PAGENAME}} */
+/* Section */ link to [[File:Test Image.jpg]]
+/* [[Example2]] */
+/* [[Example2|Test]] */
+/* Section 1 */ /* Section 2 */
+/* Section */ link to [[test:Example2]]
+/* Section */ link to [[:test:Example2]]
+/* Section */ link to [[wikipedia:Main Page]]
+/* Section */ link to [[:wikipedia:Main Page]]

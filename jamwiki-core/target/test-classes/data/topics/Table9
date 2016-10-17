@@ -1,0 +1,8 @@
+<!-- test tables with captions -->
+{| class="wikitable" style="text-align:left"
+|+align="bottom"|My special table caption for <Name of Topic>
+|-
+|'''Start'''
+| colspan="3" | <From Date - To Date>
+|-
+|}

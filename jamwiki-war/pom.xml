@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.jamwiki</groupId>
+		<artifactId>jamwiki</artifactId>
+		<version>2.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>jamwiki-war</artifactId>
+	<packaging>war</packaging>
+	<name>JAMWiki WAR</name>
+	<dependencies>
+		<!-- for the sole purpose to satisfy unpack-dependencies execution -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>jamwiki-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>jamwiki-web</artifactId>
+			<version>${project.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>bliki-parser</artifactId>
+			<version>${project.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>jamwiki-jflex-parser-tags</artifactId>
+			<version>${project.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- for deployment time security configurations only -->
+		<!-- see: http://stackoverflow.com/questions/2161050/spring-3-0-unable-to-locate-spring-namespacehandler-for-xml-schema-namespace-h -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- not directly used, only for those with directories -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-ldap</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>jamwiki-${project.version}</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<version>6.1.26</version>
+				<configuration>
+					<contextPath>/jamwiki</contextPath>
+				</configuration>
+			</plugin>
+			<!--
+			Currently the sql.*.properties files, default topic files and HTML template
+			fragments are in the jamwiki-core.jar file.  To make it easy for sites to
+			customize SQL (for bug fixing and such) and to create new translations,
+			unpack these files from the JAR and place them into the WEB-INF/classes
+			folder.
+			
+			NOTE: *.txt files currently won't unpack - a bug report has been filed with
+			the Maven team (http://jira.codehaus.org/browse/MDEP-258).
+			-->
+			<!-- Error-prone with 'mvn test' due to -->
+			<!-- http://jira.codehaus.org/browse/MDEP-98 and http://jira.codehaus.org/browse/MDEP-194 -->
+			<plugin>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>unpack-dependencies</id>
+						<goals>
+							<goal>unpack-dependencies</goal>
+						</goals>
+						<configuration>
+							<includeArtifactIds>jamwiki-core</includeArtifactIds>
+							<includes>sql/**,templates/**,pages/**</includes>
+							<outputDirectory>${project.build.outputDirectory}</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin> 
+		</plugins>
+	</build>
+</project>

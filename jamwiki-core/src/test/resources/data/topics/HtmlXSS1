@@ -1,0 +1,8 @@
+<!-- verify that attempted cross-site scripting attacks using mouse events will be stripped from HTML -->
+<u CLASS=x onmouseover="alert('Ownage');" >text</u>
+
+<DIV STYLE="background-image: url(javascript:(1) && ('XSS9'))">x</div>
+
+<DIV """><SCRIPT>alert("XSS")</SCRIPT>">test</DIV>
+
+<span style='"><script>alert("XSS")</script>'>d</span>

@@ -1,0 +1,1 @@
+This directory holds files that are used during wiki setup.  They will be copied to the JAMWiki system resources directory.

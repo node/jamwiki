@@ -1,0 +1,9 @@
+<!-- test invalid syntax within tables -->
+test
+
+{|
+|-
+| '''test
+|}
+
+test

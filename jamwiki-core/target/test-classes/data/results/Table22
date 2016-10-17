@@ -1,0 +1,23 @@
+<table style="background:#DDD;vertical-align:top" cellspacing="1" cellpadding="1">
+<tr class="hintergrundfarbe3">
+<th style="text-align:center">Staat</th>
+<th style="text-align:center">Hauptstadt</th>
+<th style="text-align:center">Fl&auml;che (km&sup2;)</th>
+<th style="text-align:center">Bev&ouml;lkerung</th>
+<th style="text-align:center">Landessprache</th>
+</tr>
+<tr style="background:#F8F8FF">
+<td>test</td>
+<td><a href="/wiki/en/Example1" title="Example1">Example1</a></td>
+<td>1001449</td>
+<td>72.000.000</td>
+<td><a href="/wiki/en/Example1" title="Example1">Text</a></td>
+</tr>
+<tr style="background:#F8F8FF">
+<td>test</td>
+<td><a href="/wiki/en/Example1" title="Example1">Example1</a></td>
+<td>1001449</td>
+<td>72.000.000</td>
+<td><a href="/wiki/en/Example1" title="Example1">Text</a></td>
+</tr>
+</table>

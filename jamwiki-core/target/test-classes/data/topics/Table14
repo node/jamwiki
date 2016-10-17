@@ -1,0 +1,8 @@
+<!-- paragraph (partially empty) followed by table. -->
+
+paragraph with opening break followed by table
+
+{| align="center"
+|-
+| centered table content
+|}

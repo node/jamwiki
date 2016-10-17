@@ -1,0 +1,26 @@
+<!-- list ending with wiki italic or bold should not cause double indentation -->
+* test''
+* test
+
+<br />
+
+* test'''''
+* test
+
+<br />
+
+* test''
+** test
+
+<br />
+
+test''
+* test
+* test
+
+<br />
+
+test''
+* test
+* test
+''

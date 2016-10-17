@@ -1,0 +1,24 @@
+<!-- test parsing of Javascript when Javascript is disabled -->
+<script type="text/javascript">
+alert("Hello!");
+</script>
+
+< script  type="text/javascript"  >
+alert("Hello!");
+<  / script  >
+
+<script type="text/javascript" foo='bar'>
+alert("Hello!");
+</script>
+
+<script type="text/javascript" style="invalid">
+alert("Hello!");
+</script>
+
+<div onclick="alert('Hello!')">test</div>
+
+<div onclick="if (1 < 2 && 3 > 2) { alert('<b>Hello!</b>') }">test</div>
+
+<div onclick="if (1 < 2 && 3 > 2) { alert('<b>Hello!</b>') }" style="margin: 10px; text-align: left">test</div>
+
+<div class="test" onclick="if (1 < 2 && 3 > 2) { alert('<b>Hello!</b>') }" style="margin: 10px; text-align: left">test</div>

@@ -1,0 +1,30 @@
+<!-- test inclusion - the specified wiki topic should be included verbatim -->
+test
+
+{{:Example1}}
+
+test
+
+{{:Example2}}
+
+test
+
+{{:non existent topic}}
+
+{{subst:Test Template}}
+
+{{subst:  Test Template }}
+
+{{subst:Test_Template}}
+
+{{subst: Non-Existent Template}}
+
+{{subst:#expr:2*3}}
+
+{{subst::Example2}}
+
+{{subst:Reprint|content={{subst:PAGENAME}}}}
+
+{|
+{{Inclusion/test|arg1=|arg2=test}}
+|}

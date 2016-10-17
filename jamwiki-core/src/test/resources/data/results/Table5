@@ -1,0 +1,17 @@
+<table style="background:yellow; color:green">
+<tr>
+<td>abc</td>
+<td>def</td>
+<td>ghi</td>
+</tr>
+<tr style="background:red; color:white">
+<td>jkl</td>
+<td>mno</td>
+<td>pqr</td>
+</tr>
+<tr>
+<td>stu</td>
+<td style="background:silver">vwx</td>
+<td>yz</td>
+</tr>
+</table>

@@ -1,0 +1,7 @@
+<!-- test paragraph parsing with block tags -->
+<div>text
+
+text
+</div>
+
+text

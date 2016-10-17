@@ -1,0 +1,56 @@
+<!-- verify that basic HTML with attribute tags will be processed correctly -->
+<font style="test">text</font>
+
+<font style="test" color="red">text</font>
+
+< font   style="test" color="red"  >text<  /  font  >
+
+<font foo=bar color=red>text</font>
+
+<font onclick="alert('Hello')"   color='red'>text</font>
+
+<br style="height:10px" />
+
+<p><address style="margin:10px" onclick="alert('Hello')">address</address></p>
+<center foo=bar id=center_id>center</center>
+<span id='span_id' foo='bar">span</span>
+<em id="em_id" id="em_id2">em</em>
+
+<strong onMoUseOvEr="alert('Hello')">strong</strong>
+<dfn ID="dfn_id">dfn</dfn>
+
+<code ID="code_id">code</code>
+<samp>samp</samp>
+<kbd>kbd</kbd>
+
+<var   id  =  var_id>var</var>
+<cite  id  =  "cite_id"  >cite</cite>
+<abbr   id = "abbr_id"  foo  = bar>abbr</abbr>
+<acronym>acronym</acronym>
+
+<sub>sub</sub>
+<sup>sup</sup>
+<tt>tt</tt>
+<i>i</i>
+<b>b</b>
+<big>big</big>
+<small>small</small>
+<u>u</u>
+<s>s</s>
+<strike>strike</strike>
+
+<div id="div_id">
+test
+</div>
+
+<blockquote id="blockquote" cite="cite" foo="bar">
+blockquote
+</blockquote>
+
+<ins cite="cite" fakecite="fakecite">test</ins>
+<del cite="cite" fakecite="fakecite">test</del>
+
+<hr noshade="noshade" align="left" border="1" />
+<hr noshade align="left" border="1" />
+
+<br clear="left" />
